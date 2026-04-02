@@ -109,4 +109,8 @@ flowchart TD
     L --> M{¿Las dos entradas estan activadas?}
     M -- No --> K
     M -- Sí --> B
+    ```mermaid
+flowchart TD
+A[Inicio] --> B[Fin]
+```
 
