@@ -79,9 +79,10 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
 - **Correo institucional:** mmorillot@unal.edu.co
 - **Usuario de GitHub:** [mmorillot](https://github.com/mmorillot)
 - **Rol en el equipo:** Ej. Modelado, programación, control
-- **Intereses:** Manipulación, ROS 2, control de robots
-- **Descripción breve:**  
-  Escribe aquí una breve presentación personal y académica del integrante.
+- **Intereses:** Control de robots, manipulación
+- **Descripción breve:**
+  Actualmente estoy en décimo semestre de Ingeniería. Me interesa el área de control de robots, especialmente entender cómo funcionan y cómo se pueden hacer más precisos. También me llama la atención la parte de manipulación. Me gusta aprender cosas nuevas y seguir mejorando en temas relacionados con la robótica.
+
 
 ---
 <div align="center">
