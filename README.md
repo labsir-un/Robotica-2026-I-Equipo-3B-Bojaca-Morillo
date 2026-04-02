@@ -87,6 +87,8 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
 <div align="center">
      Diagrama de flujo de acciones del robot.
 </div>
-<img width="576" height="943" alt="image" src="https://github.com/user-attachments/assets/50013811-696e-4a27-a3ec-49815e6d2078" />
+<p align="center">
+  <img src="C:\Users\mafes\Downloads\mermaid-diagram (6).png" width="400"/>
+</p>
 
 
