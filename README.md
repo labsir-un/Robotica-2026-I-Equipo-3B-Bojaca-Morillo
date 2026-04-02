@@ -89,7 +89,6 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
 </div>
 ## Diagrama del robot
 
-```mermaid
 flowchart TD
 
     A[Inicio] --> B[Robot en HOME]
@@ -98,7 +97,7 @@ flowchart TD
 
     C -- Entrada 1 --> D[Encender luz indicadora]
     D --> E[Ejecutar rutina de decorado]
-    E --> F[Realizar trayectorias (nombres + decoracion)]
+    E --> F[Realizar trayectorias nombres y decoracion]
     F --> G[Fin de trayectoria]
     G --> H[Apagar luz indicadora]
     H --> B
@@ -110,6 +109,4 @@ flowchart TD
     L --> M{¿Las dos entradas estan activadas?}
     M -- No --> K
     M -- Sí --> B
-```
-
 
