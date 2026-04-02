@@ -88,7 +88,7 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
      Diagrama de flujo de acciones del robot.
 </div>
 <p align="center">
- <img width="557" height="949" alt="image" src="https://github.com/user-attachments/assets/c479992a-b41f-4d97-b343-a367ed915664" />
+<img width="427" height="675" alt="image" src="https://github.com/user-attachments/assets/e7116539-7b75-48ab-aaa3-ab172bfaf5da" />
 </p>
 
 
