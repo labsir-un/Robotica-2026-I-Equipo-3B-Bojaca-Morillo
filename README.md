@@ -113,4 +113,9 @@ flowchart TD
 flowchart TD
 A[Inicio] --> B[Fin]
 ```
+````markdown
+```mermaid
+        flowchart TD
+A[Inicio] --> B[Fin]
+```
 
