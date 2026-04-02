@@ -87,6 +87,8 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
 <div align="center">
      Diagrama de flujo de acciones del robot.
 </div>
+## Diagrama del robot
+
 ```mermaid
 flowchart TD
 
