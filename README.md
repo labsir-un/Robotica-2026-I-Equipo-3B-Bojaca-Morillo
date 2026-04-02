@@ -86,7 +86,8 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
 ---
 <div align="center">
      Diagrama de flujo de acciones del robot.
-   ```mermaid
+</div>
+```mermaid
 flowchart TD
 
     A[Inicio] --> B[Robot en HOME]
@@ -108,7 +109,5 @@ flowchart TD
     M -- No --> K
     M -- Sí --> B
 ```
-
-</div>
 
 
