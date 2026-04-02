@@ -70,7 +70,7 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
 
 ### Integrante 2
 <div align="center">
-     <img src="C:\Users\mafes\Downloads\Captura de pantalla 2026-04-01 200146.png" alt="Foto integrante 2" style="border-radius: 50%; width: 180px;"><br>
+     <img src="./assets/integrantes/integrante2.jpg" alt="Foto integrante 2" style="border-radius: 50%; width: 180px;"><br>
 </div>
 
 
