@@ -72,6 +72,7 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
 <div align="center">
   <img src="./assets/integrantes/integrante2.jpg" alt="Foto integrante 2" style="border-radius: 50%; width: 180px;"><br>
 </div>
+<img width="396" height="640" alt="image" src="https://github.com/user-attachments/assets/922a3019-345c-4a8d-be91-1f393f4aa3e9" />
 
 - **Nombre completo:** Maria Fernanda Morillo Tovar
 - **Carrera:** Ingeniería Mecatrónica
