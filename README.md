@@ -85,8 +85,9 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
 
 ---
 <div align="center">
-     hola
-     <hOLA><br>
+     Diagrama de flujo de acciones del robot.
+    <img width="413" height="632" alt="image" src="https://github.com/user-attachments/assets/faf1d038-d7e1-4f8a-b8f5-864001f16036" />
+
 </div>
 
 
