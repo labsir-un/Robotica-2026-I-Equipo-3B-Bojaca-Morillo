@@ -26,9 +26,20 @@ Escribe aquí una breve presentación del integrante. Puedes hablar de lo que le
 
 <p>
 
+
+
+
 </p>
 
-<img src="./assets/integrantes/integrante2.jpg" width="180" style="border-radius:50%;"><br><br>
+
+
+
+
+
+
+
+</p>
+
 
 <b>Carrera:</b> Ingeniería Mecatrónica <br>
 <b>Correo:</b> mmorillot@unal.edu.co <br>
