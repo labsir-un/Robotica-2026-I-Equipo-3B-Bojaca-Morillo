@@ -61,26 +61,38 @@ Actualmente estoy en décimo semestre de Ingeniería. Me interesa el área de co
 
 ## Diagrama de flujo de acciones del robot
 
+
+---
+
+## 🔥 Ejemplo más parecido a lo que tú haces (tickets)
+
+```markdown
+```mermaid
 flowchart TD
 
-    A[Inicio] --> B[Robot en HOME]
+A[Inicio] --> B[Usuario crea ticket]
 
-    B --> C{Entrada digital}
+B --> C{Tipo de ticket}
 
-    C -- Entrada 1 --> D[Encender luz indicadora]
-    D --> E[Ejecutar rutina de decorado]
-    E --> F[Realizar trayectorias nombres y decoracion]
-    F --> G[Fin de trayectoria]
-    G --> H[Apagar luz indicadora]
-    H --> B
+C -->|Interno| D[ESM]
+C -->|Externo| E[Service Now]
 
-    C -- Entrada 2 --> J[Encender luz indicadora]
-    J --> K[Ir a posicion de mantenimiento]
-    K --> L[Apagar luz indicadora]
+D --> F[Asignación]
+E --> F
 
-    L --> M{¿Las dos entradas estan activadas?}
-    M -- No --> K
-    M -- Sí --> B
+F --> G[Gestión del ticket]
+
+G --> H{¿Requiere integración externa?}
+
+H -->|No| I[Resolución]
+H -->|Sí| J[ERP / Sistema externo]
+
+J --> I
+
+I --> K[Cierre del ticket]
+K --> L[Encuesta de satisfacción]
+
+
 ## Descripción de las funciones utilizadas 
 
 
