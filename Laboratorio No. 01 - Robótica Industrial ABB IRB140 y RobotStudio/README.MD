@@ -42,8 +42,26 @@ Actualmente estoy en décimo semestre de Ingeniería. Me interesa el área de co
 ## Introduccion
 
 
-## Descripción de la solución planteada
+## Descripción detallada de la solución planteada
+La solución desarrollada consiste en la implementación de un sistema de trayectoria para un robot industrial ABB, programado en lenguaje RAPID, con el objetivo de simular la decoración de una torta mediante el trazado de figuras y texto sobre una superficie plana.
 
+En primer lugar, se definió una herramienta de trabajo (tooldata) que representa un marcador acoplado al efector final del robot. Esta herramienta fue calibrada considerando la posición del TCP (Tool Center Point), permitiendo que el robot realice trazos precisos sobre la superficie de trabajo.
+
+Adicionalmente, se configuró un sistema de referencia mediante el uso de un workobject, el cual define el plano donde se realiza la trayectoria. Esto permite desacoplar la programación de la posición absoluta del robot, facilitando la reutilización de trayectorias en diferentes ubicaciones.
+
+La lógica principal del programa se basa en una secuencia de movimientos definidos mediante múltiples puntos (robtargets). Estos puntos representan coordenadas específicas en el espacio cartesiano que, al ser recorridas secuencialmente mediante instrucciones MoveL, permiten generar trazos continuos simulando letras y figuras decorativas.
+
+El flujo de operación inicia desde una posición segura denominada Home, desde donde el robot se desplaza hacia el punto inicial del trazado. Posteriormente, ejecuta una serie de movimientos lineales (MoveL) entre los diferentes puntos definidos, asegurando continuidad en el trazo y respetando las restricciones de velocidad y zona de aproximación establecidas.
+
+Para garantizar la calidad del trazado:
+
+Se utilizan movimientos lineales (MoveL) para mantener precisión en las trayectorias.
+Se define una altura segura en algunos puntos (offset en Z) para evitar colisiones al desplazarse entre secciones.
+Se controla la orientación del efector final mediante cuaterniones, asegurando que el marcador mantenga contacto adecuado con la superficie.
+
+El programa contempla una gran cantidad de puntos intermedios que permiten representar formas complejas, como curvas y detalles finos, logrando una simulación más realista del proceso de decoración.
+
+Finalmente, el robot retorna a la posición Home, completando el ciclo de trabajo. Esta estructura garantiza repetibilidad, seguridad operativa y facilidad de adaptación para futuras modificaciones, como el cambio de diseño o la implementación en otro sistema de referencia.
 
 ### Herramienta de trabajo  flange
 
