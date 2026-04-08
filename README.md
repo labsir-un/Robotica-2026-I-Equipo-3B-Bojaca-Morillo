@@ -70,7 +70,8 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
 
 ### Integrante 2
 <div align="center">
-     <img src="./assets/integrantes/integrante2.jpg" alt="Foto integrante 2" style="border-radius: 50%; width: 180px;"><br>
+     <img src="./assets/integrantes/integrante2.jpg" alt="Foto integrante 2" style="border-radius: 50%;<img width="391" height="626" alt="Captura de pantalla 2026-04-01 200146" src="https://github.com/user-attachments/assets/7c16a57b-bad2-457f-859a-fac801ad0f4b" />
+ width: 180px;"><br>
 </div>
 
 
