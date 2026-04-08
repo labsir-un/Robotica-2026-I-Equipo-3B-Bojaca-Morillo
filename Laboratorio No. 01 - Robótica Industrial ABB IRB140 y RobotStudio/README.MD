@@ -18,7 +18,39 @@
 </p>
 
 ---
+## Integrantes del equipo
 
+### Integrante 1
+<div align="center">
+  <img src="./assets/integrantes/integrante1.jpg" alt="Foto integrante 1" style="border-radius: 50%; width: 180px;"><br>
+</div>
+
+- **Nombre completo:** Nombre Apellido
+- **Carrera:** Ingeniería Mecatrónica
+- **Correo institucional:** nombre@unal.edu.co
+- **Usuario de GitHub:** [usuariogithub](https://github.com/usuariogithub)
+- **Rol en el equipo:** Ej. Integración ROS 2, documentación, simulación
+- **Intereses:** Robótica móvil, visión artificial, automatización
+- **Descripción breve:**  
+  Escribe aquí una breve presentación personal y académica del integrante.
+
+---
+
+### Integrante 2
+<div align="center">
+     <img src="./assets/integrantes/integrante2.jpg" alt="Foto integrante 2" style="border-radius: 50%;<img width="391" height="626" alt="Captura de pantalla 2026-04-01 200146" src="https://github.com/user-attachments/assets/7c16a57b-bad2-457f-859a-fac801ad0f4b" />
+ width: 180px;"><br>
+</div>
+
+
+- **Nombre completo:** Maria Fernanda Morillo Tovar
+- **Carrera:** Ingeniería Mecatrónica
+- **Correo institucional:** mmorillot@unal.edu.co
+- **Usuario de GitHub:** [mmorillot](https://github.com/mmorillot)
+- **Rol en el equipo:** Ej. Modelado, programación, control
+- **Intereses:** Control de robots, manipulación
+- **Descripción breve:**
+  Actualmente estoy en décimo semestre de Ingeniería. Me interesa el área de control de robots, especialmente entender cómo funcionan y cómo se pueden hacer más precisos. También me llama la atención la parte de manipulación. Me gusta aprender cosas nuevas y seguir mejorando en temas relacionados con la robótica.
 ### Descripción general
 
 ---
