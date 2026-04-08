@@ -36,7 +36,7 @@
 
 <!-- Nombre 1 -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2400&pause=600&color=7F5AF0&center=true&vCenter=true&width=1000&repeat=true&v=1&lines=Maria+Fernanda+Morillo+Tovar+%E2%80%94+mmorillot%40unal.du.co" alt="Maria Fernanda Morillo Tovar">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2400&pause=600&color=7F5AF0&center=true&vCenter=true&width=1000&repeat=true&v=1&lines=Maria+Fernanda+Morillo+Tovar+%E2%80%94+mmorillot%40unal.edu.co" alt="Maria Fernanda Morillo Tovar">
 </p>
 
 <!-- Nombre 2 -->
