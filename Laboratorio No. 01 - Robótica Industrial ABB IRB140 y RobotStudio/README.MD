@@ -19,13 +19,13 @@
 
 ---
 
-### 🛰️ Descripción general
+### Descripción general
 
 ---
 
 ---
 
-## 🧑‍🚀 Equipo
+## Equipo
 
 <!-- ===== INICIO BLOQUE ANIMACIONES EQUIPO (una animación por línea) ===== -->
 
