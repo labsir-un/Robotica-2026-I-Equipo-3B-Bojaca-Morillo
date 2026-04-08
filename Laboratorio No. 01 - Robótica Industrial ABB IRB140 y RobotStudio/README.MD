@@ -18,6 +18,31 @@
 </p>
 
 ---
+
+### Descripción general
+
+---
+
+---
+
+## Equipo
+
+<!-- ===== INICIO BLOQUE ANIMACIONES EQUIPO (una animación por línea) ===== -->
+
+<!-- Encabezado: Integrantes -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&duration=2000&pause=800&color=00E5FF&center=true&vCenter=true&width=1000&repeat=true&v=1&lines=Integrantes%3A" alt="Integrantes">
+</p>
+
+<!-- Nombre 1 -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2400&pause=600&color=7F5AF0&center=true&vCenter=true&width=1000&repeat=true&v=1&lines=Maria+Fernanda+Morillo+Tovar+%E2%80%94+mmorillot%40unal.edu.co" alt="Maria Fernanda Morillo Tovar">
+</p>
+
+<!-- Nombre 2 -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2400&pause=600&color=7F5AF0&center=true&vCenter=true&width=1000&repeat=true&v=1&lines=Gabriel+Eduardo+Bojaca+Munar+%E2%80%94+gbojaca%40unal.edu.co" alt="Gabriel Eduardo Bojaca Munar">
+</p>
 ## Integrantes del equipo
 
 ### Integrante 1
@@ -51,31 +76,6 @@
 - **Intereses:** Control de robots, manipulación
 - **Descripción breve:**
   Actualmente estoy en décimo semestre de Ingeniería. Me interesa el área de control de robots, especialmente entender cómo funcionan y cómo se pueden hacer más precisos. También me llama la atención la parte de manipulación. Me gusta aprender cosas nuevas y seguir mejorando en temas relacionados con la robótica.
-### Descripción general
-
----
-
----
-
-## Equipo
-
-<!-- ===== INICIO BLOQUE ANIMACIONES EQUIPO (una animación por línea) ===== -->
-
-<!-- Encabezado: Integrantes -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&duration=2000&pause=800&color=00E5FF&center=true&vCenter=true&width=1000&repeat=true&v=1&lines=Integrantes%3A" alt="Integrantes">
-</p>
-
-<!-- Nombre 1 -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2400&pause=600&color=7F5AF0&center=true&vCenter=true&width=1000&repeat=true&v=1&lines=Maria+Fernanda+Morillo+Tovar+%E2%80%94+mmorillot%40unal.edu.co" alt="Maria Fernanda Morillo Tovar">
-</p>
-
-<!-- Nombre 2 -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2400&pause=600&color=7F5AF0&center=true&vCenter=true&width=1000&repeat=true&v=1&lines=Gabriel+Eduardo+Bojaca+Munar+%E2%80%94+gbojaca%40unal.edu.co" alt="Gabriel Eduardo Bojaca Munar">
-</p>
-
 <!-- Encabezado: Docentes -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&duration=2000&pause=800&color=00E5FF&center=true&vCenter=true&width=1000&repeat=true&v=1&lines=Docentes%3A" alt="Docentes">
