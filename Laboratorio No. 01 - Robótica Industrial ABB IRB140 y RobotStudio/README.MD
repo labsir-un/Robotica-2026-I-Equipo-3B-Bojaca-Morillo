@@ -80,7 +80,7 @@ Actualmente estoy en décimo semestre de Ingeniería. Me interesa el área de co
 </ul>
 
 ## Código Rapid
-EJEMPLO.  [Hacer clic aquí para ver el código RAPID](https://github.com/Nicolas-Eule/Laboratorio_Robotica_1/blob/main/rapid/RAPID_CODE.m)
+[Hacer clic aquí para ver el código RAPID](https://drive.google.com/file/d/1EwIjLhzsObqGKkeLNUioe4b32cYNhYXg/view?usp=sharing)
 
 ## Plano de planta de los elementos de trabajo
 EJEMPLO. [Hacer clic aquí para ver el plano de planta en RobotStudio](https://github.com/Nicolas-Eule/Laboratorio_Robotica_1/blob/main/assets/img/Plano_de_planta.png)
