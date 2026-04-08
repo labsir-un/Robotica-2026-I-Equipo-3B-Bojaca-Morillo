@@ -62,36 +62,6 @@ Actualmente estoy en décimo semestre de Ingeniería. Me interesa el área de co
 ## Diagrama de flujo de acciones del robot
 
 
----
-
-## 🔥 Ejemplo más parecido a lo que tú haces (tickets)
-
-```markdown
-```mermaid
-flowchart TD
-
-A[Inicio] --> B[Usuario crea ticket]
-
-B --> C{Tipo de ticket}
-
-C -->|Interno| D[ESM]
-C -->|Externo| E[Service Now]
-
-D --> F[Asignación]
-E --> F
-
-F --> G[Gestión del ticket]
-
-G --> H{¿Requiere integración externa?}
-
-H -->|No| I[Resolución]
-H -->|Sí| J[ERP / Sistema externo]
-
-J --> I
-
-I --> K[Cierre del ticket]
-K --> L[Encuesta de satisfacción]
-
 
 ## Descripción de las funciones utilizadas 
 
