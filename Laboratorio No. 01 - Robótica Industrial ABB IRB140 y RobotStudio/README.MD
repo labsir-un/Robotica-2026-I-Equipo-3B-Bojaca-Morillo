@@ -82,21 +82,25 @@ Finalmente, el robot retorna a la posición Home, completando el ciclo de trabaj
 
 
 ## Descripción de las funciones utilizadas 
+En el desarrollo del programa se utilizaron las siguientes funciones y estructuras del lenguaje RAPID:
 
+MoveL
+Permite realizar movimientos lineales entre puntos, asegurando trayectorias continuas y precisas para el trazado.
+MoveJ
+Usado para movimientos rápidos entre posiciones, como el desplazamiento desde y hacia la posición Home.
+robtarget
+Estructura que define la posición y orientación del robot en el espacio cartesiano.
+tooldata
+Define las características de la herramienta (marcador) y la ubicación del TCP.
+wobjdata (workobject)
+Permite establecer el sistema de referencia donde se ejecutan las trayectorias.
+CONST
+Se utiliza para declarar puntos fijos que no cambian durante la ejecución.
+PROC
+Permite organizar el programa en procedimientos para estructurar mejor la lógica.
+MoveAbsJ
+Utilizado para mover el robot directamente a configuraciones articulares específicas, como la posición Home.
 
-### Funciones de movimiento
-<ul style="list-style-type: square;">
-  <li>MoveJ:EJEMPLO  </li>
-  <li>MoveL: EJEMPLO</li>
-
-</ul>
-
-### Funciones de operadores lógicos
-
-<ul style="list-style-type: square;">
-  <li> MoveJ:EJEMPLO </li>
-  <li> MoveJ:EJEMPLO</li>
-</ul>
 
 ## Código Rapid
 [Hacer clic aquí para ver el código RAPID](https://drive.google.com/file/d/1EwIjLhzsObqGKkeLNUioe4b32cYNhYXg/view?usp=sharing)
