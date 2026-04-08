@@ -82,10 +82,6 @@ Finalmente, el robot retorna a la posición Home, completando el ciclo de trabaj
 
 
 ## Descripción de las funciones utilizadas 
-### 📌 Funciones utilizadas
-
-En el desarrollo del programa se utilizaron las siguientes funciones y estructuras del lenguaje RAPID:
-
 - **MoveL**  
   Permite realizar movimientos lineales entre puntos, asegurando trayectorias continuas y precisas para el trazado.
 
