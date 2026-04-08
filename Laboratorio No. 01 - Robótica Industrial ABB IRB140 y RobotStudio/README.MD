@@ -1,97 +1,46 @@
-<!-- ✦✦✦ FUTURE IS AUTOMATED ✦✦✦ -->
-<!-- Banner superior “neón” -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:04041A,50:14213D,100:0A4D68&text=Laboratorio%20Rob%C3%B3tica%201&fontColor=E0FBFC&fontAlign=50&fontAlignY=30&desc=Decoraci%C3%B3n%20de%20Tortas%20Virtuales%20%E2%80%A2%20ABB%20IRB%20140%20%E2%80%A2%20RAPID&descAlign=50&descAlignY=60" alt="header" />
-</p>
+<!-- ===== EQUIPO ===== -->
 
-<h1 align="center">LABORATORIO ROBÓTICA 1 – DECORACIÓN DE TORTAS AUTOMATICA</h1>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/RAPID-ABB%20IRC5-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/RobotStudio-2025-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Automation-Industrial-green?style=for-the-badge" />
-</p>
-
-<!-- Línea de texto mecanografiado (animado) -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&duration=3500&color=00E5FF&center=true&vCenter=true&lines=Rob%C3%B3tica+Industrial+2025%E2%80%93II;ABB+IRB+140+%E2%80%A2+RAPID+%E2%80%A2+RobotStudio;TCP+%2F+Tooldata+%E2%80%A2+WorkObjects+%E2%80%A2+IO+Digitales" alt="typing">
-</p>
-
----
-
-### Descripción general
-
----
-
----
-
-## Equipo
-
-<!-- ===== INICIO BLOQUE ANIMACIONES EQUIPO (una animación por línea) ===== -->
-
-<!-- Encabezado: Integrantes -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&duration=2000&pause=800&color=00E5FF&center=true&vCenter=true&width=1000&repeat=true&v=1&lines=Integrantes%3A" alt="Integrantes">
-</p>
-
-<!-- Nombre 1 -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2400&pause=600&color=7F5AF0&center=true&vCenter=true&width=1000&repeat=true&v=1&lines=Maria+Fernanda+Morillo+Tovar+%E2%80%94+mmorillot%40unal.edu.co" alt="Maria Fernanda Morillo Tovar">
-</p>
-
-<!-- Nombre 2 -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2400&pause=600&color=7F5AF0&center=true&vCenter=true&width=1000&repeat=true&v=1&lines=Gabriel+Eduardo+Bojaca+Munar+%E2%80%94+gbojaca%40unal.edu.co" alt="Gabriel Eduardo Bojaca Munar">
-</p>
-
-
-### Integrante 1
 <div align="center">
-  <img src="./assets/integrantes/integrante1.jpg" alt="Foto integrante 1" style="border-radius: 50%; width: 180px;"><br>
+
+<!-- ================== INTEGRANTE 1 ================== -->
+
+<p>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2400&pause=600&color=7F5AF0&center=true&vCenter=true&width=600&lines=Gabriel+Eduardo+Bojaca+Munar">
+</p>
+
+<img src="./assets/integrantes/integrante1.jpg" width="180" style="border-radius:50%;"><br><br>
+
+<b>Carrera:</b> Ingeniería Mecatrónica <br>
+<b>Correo:</b> gbojaca@unal.edu.co <br>
+<b>GitHub:</b> <a href="https://github.com/usuariogithub">usuariogithub</a> <br>
+<b>Rol:</b> Simulación y documentación <br>
+<b>Intereses:</b> Robótica móvil, automatización <br><br>
+
+<p style="max-width:500px;">
+Escribe aquí una breve presentación del integrante. Puedes hablar de lo que le gusta, en qué es bueno o en qué está trabajando.
+</p>
+
+<br><br>
+
+<!-- ================== INTEGRANTE 2 ================== -->
+
+<p>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2400&pause=600&color=00E5FF&center=true&vCenter=true&width=600&lines=Maria+Fernanda+Morillo+Tovar">
+</p>
+
+<img src="./assets/integrantes/integrante2.jpg" width="180" style="border-radius:50%;"><br><br>
+
+<b>Carrera:</b> Ingeniería Mecatrónica <br>
+<b>Correo:</b> mmorillot@unal.edu.co <br>
+<b>GitHub:</b> <a href="https://github.com/mmorillot">mmorillot</a> <br>
+<b>Rol:</b> Modelado, programación y control <br>
+<b>Intereses:</b> Control de robots, manipulación <br><br>
+
+<p style="max-width:500px;">
+Actualmente estoy en décimo semestre de Ingeniería. Me interesa el área de control de robots, especialmente entender cómo funcionan y cómo se pueden hacer más precisos. También me llama la atención la parte de manipulación.
+</p>
+
 </div>
-
-- **Nombre completo:** Nombre Apellido
-- **Carrera:** Ingeniería Mecatrónica
-- **Correo institucional:** nombre@unal.edu.co
-- **Usuario de GitHub:** [usuariogithub](https://github.com/usuariogithub)
-- **Rol en el equipo:** Ej. Integración ROS 2, documentación, simulación
-- **Intereses:** Robótica móvil, visión artificial, automatización
-- **Descripción breve:**  
-  Escribe aquí una breve presentación personal y académica del integrante.
-
----
-
-### Integrante 2
-<div align="center">
-     <img src="./assets/integrantes/integrante2.jpg" alt="Foto integrante 2" style="border-radius: 50%;<img width="391" height="626" alt="Captura de pantalla 2026-04-01 200146" src="https://github.com/user-attachments/assets/7c16a57b-bad2-457f-859a-fac801ad0f4b" />
- width: 180px;"><br>
-</div>
-
-
-- **Nombre completo:** Maria Fernanda Morillo Tovar
-- **Carrera:** Ingeniería Mecatrónica
-- **Correo institucional:** mmorillot@unal.edu.co
-- **Usuario de GitHub:** [mmorillot](https://github.com/mmorillot)
-- **Rol en el equipo:** Ej. Modelado, programación, control
-- **Intereses:** Control de robots, manipulación
-- **Descripción breve:**
-  Actualmente estoy en décimo semestre de Ingeniería. Me interesa el área de control de robots, especialmente entender cómo funcionan y cómo se pueden hacer más precisos. También me llama la atención la parte de manipulación. Me gusta aprender cosas nuevas y seguir mejorando en temas relacionados con la robótica.
-<!-- Encabezado: Docentes -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&duration=2000&pause=800&color=00E5FF&center=true&vCenter=true&width=1000&repeat=true&v=1&lines=Docentes%3A" alt="Docentes">
-</p>
-
-<!-- Docente 1 -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2400&pause=600&color=39D353&center=true&vCenter=true&width=1000&repeat=true&v=1&lines=Manuel+Felipe+Carranza+Montenegro+%E2%80%94+mcarranza%40unal.edu.co" alt="Manuel Felipe Carranza Montenegro">
-</p>
-
-<!-- Docente 2 -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2400&pause=600&color=39D353&center=true&vCenter=true&width=1000&repeat=true&v=1&lines=Pedro+Fabi%C3%A1n+C%C3%A1rdenas+Herrera+%E2%80%94+pfcardenash%40unal.edu.co" alt="Pedro Fabián Cárdenas Herrera">
-</p>
-
-<!-- ===== FIN BLOQUE ANIMACIONES EQUIPO ===== -->
 
 # Laboratorio No. 01 - Robótica Industrial: Trayectorias, Entradas y Salidas Digitales.
 ## Introduccion
