@@ -25,7 +25,7 @@ Escribe aquí una breve presentación del integrante. Puedes hablar de lo que le
 <!-- ================== INTEGRANTE 2 ================== -->
 
 <p>
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2400&pause=600&color=00E5FF&center=true&vCenter=true&width=600&lines=Maria+Fernanda+Morillo+Tovar">
+
 </p>
 
 <img src="./assets/integrantes/integrante2.jpg" width="180" style="border-radius:50%;"><br><br>
