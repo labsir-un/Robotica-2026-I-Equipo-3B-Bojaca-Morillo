@@ -34,7 +34,7 @@ Escribe aquí una breve presentación del integrante. Puedes hablar de lo que le
 <b>Correo:</b> mmorillot@unal.edu.co <br>
 <b>GitHub:</b> <a href="https://github.com/mmorillot">mmorillot</a> <br>
 <b>Rol:</b> Modelado, programación y control <br>
-<b>Intereses:</b> Control de robots, manipulación <br><br>
+<b>Intereses:</b> Control de robots, manipulación.<br><br>
 
 <p style="max-width:500px;">
 Actualmente estoy en décimo semestre de Ingeniería. Me interesa el área de control de robots, especialmente entender cómo funcionan y cómo se pueden hacer más precisos. También me llama la atención la parte de manipulación.
