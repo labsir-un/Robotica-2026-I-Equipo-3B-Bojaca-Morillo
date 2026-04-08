@@ -8,8 +8,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2400&pause=600&color=7F5AF0&center=true&vCenter=true&width=600&lines=Gabriel+Eduardo+Bojaca+Munar">
 </p>
 
-<img src="./assets/integrantes/integrante1.jpg" width="180" style="border-radius:50%;"><br><br>
-
 <b>Carrera:</b> Ingeniería Mecatrónica <br>
 <b>Correo:</b> gbojaca@unal.edu.co <br>
 <b>GitHub:</b> <a href="https://github.com/usuariogithub">usuariogithub</a> <br>
@@ -26,8 +24,6 @@ Escribe aquí una breve presentación del integrante. Puedes hablar de lo que le
 <p>
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2400&pause=600&color=7F5AF0&center=true&vCenter=true&width=600&lines=Maria+Fernanda+Morillo+Tovar">
 </p>
-
-<img src="./assets/integrantes/integrante1.jpg" width="180" style="border-radius:50%;"><br><br>
 
 
 <b>Carrera:</b> Ingeniería Mecatrónica <br>
