@@ -130,7 +130,7 @@ Se muestra la implementacion de las dos herramientas en RobotStudio
 
 EJEMPLO:
 <p align="center">
-  <img src="https://github.com/Nicolas-Eule/Laboratorio_Robotica_1/blob/main/assets/img/Screenshot%202025-10-05%20201650.png" alt="Flujo de proceso" width="350">
+  <img src="https://raw.githubusercontent.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/refs/heads/main/Laboratorio%20No.%2001%20-%20Rob%C3%B3tica%20Industrial%20ABB%20IRB140%20y%20RobotStudio/assets/img/Render.jpg" alt="Render" width="1080">
 </p>
 
 
