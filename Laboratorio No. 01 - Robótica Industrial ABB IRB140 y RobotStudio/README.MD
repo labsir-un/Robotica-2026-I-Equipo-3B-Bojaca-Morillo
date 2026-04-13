@@ -114,11 +114,11 @@ EJEMPLO. [Hacer clic aquí para ver el plano de planta en RobotStudio](https://g
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/refs/heads/main/Laboratorio%20No.%2001%20-%20Rob%C3%B3tica%20Industrial%20ABB%20IRB140%20y%20RobotStudio/assets/img/Planta_Lab_1.jpg" alt="Planta" width="720">
+  <img src="https://raw.githubusercontent.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/refs/heads/main/Laboratorio%20No.%2001%20-%20Rob%C3%B3tica%20Industrial%20ABB%20IRB140%20y%20RobotStudio/assets/img/Planta_Lab_1.jpg" alt="Planta" width="1080">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/refs/heads/main/Laboratorio%20No.%2001%20-%20Rob%C3%B3tica%20Industrial%20ABB%20IRB140%20y%20RobotStudio/assets/img/Planta_Lab_2.jpg" alt="Planta2" width="720">
+  <img src="https://raw.githubusercontent.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/refs/heads/main/Laboratorio%20No.%2001%20-%20Rob%C3%B3tica%20Industrial%20ABB%20IRB140%20y%20RobotStudio/assets/img/Planta_Lab_2.jpg" alt="Planta2" width="1080">
 </p>
 
 
