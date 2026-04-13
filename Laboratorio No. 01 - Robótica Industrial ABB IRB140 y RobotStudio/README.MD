@@ -66,9 +66,9 @@ Finalmente, el robot retorna a la posición Home, completando el ciclo de trabaj
 ### Herramienta de trabajo  flange
 
 #### Imagenes de la herramienta 1 (Construida y Modelo CAD)
+
 <p align="center">
-  <img src="https://github.com/Nicolas-Eule/Laboratorio_Robotica_1/blob/main/assets/img/Herramienta%201.1.png" width="40%">
-  <img src="https://github.com/Nicolas-Eule/Laboratorio_Robotica_1/blob/main/assets/img/Herramienta%201.png" width="50%">
+  <img src="https://raw.githubusercontent.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/refs/heads/main/Laboratorio%20No.%2001%20-%20Rob%C3%B3tica%20Industrial%20ABB%20IRB140%20y%20RobotStudio/assets/img/Assembly1.jpg" alt="Planta" width="1080">
 </p>
 
 
