@@ -112,6 +112,12 @@ Finalmente, el robot retorna a la posición Home, completando el ciclo de trabaj
 ## Plano de planta de los elementos de trabajo
 EJEMPLO. [Hacer clic aquí para ver el plano de planta en RobotStudio](https://github.com/Nicolas-Eule/Laboratorio_Robotica_1/blob/main/assets/img/Plano_de_planta.png)
 
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/refs/heads/main/Laboratorio%20No.%2001%20-%20Rob%C3%B3tica%20Industrial%20ABB%20IRB140%20y%20RobotStudio/assets/img/Planta_Lab_1.jpg" alt="Planta" width="350">
+</p>
+
+
 ## Herramientas en RobotStudio
 Se muestra la implementacion de las dos herramientas en RobotStudio
 
