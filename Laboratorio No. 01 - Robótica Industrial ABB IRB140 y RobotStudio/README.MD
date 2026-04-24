@@ -40,7 +40,7 @@ Actualmente estoy en décimo semestre de Ingeniería. Me interesa el área de co
 
 # Laboratorio No. 01 - Robótica Industrial: Trayectorias, Entradas y Salidas Digitales.
 ## Introduccion
-
+En este laboratorio se trabaja la generación de trayectorias en un robot industrial ABB utilizando RAPID. A través de una simulación, el robot realiza el trazado de figuras sobre una superficie, permitiendo entender cómo se definen movimientos, herramientas y sistemas de referencia para lograr precisión y continuidad en las trayectorias.
 
 ## Descripción detallada de la solución planteada
 La solución desarrollada consiste en la implementación de un sistema de trayectoria para un robot industrial ABB, programado en lenguaje RAPID, con el objetivo de simular la decoración de una torta mediante el trazado de figuras y texto sobre una superficie plana.
