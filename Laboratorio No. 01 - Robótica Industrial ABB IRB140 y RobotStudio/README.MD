@@ -15,7 +15,7 @@
 <b>Intereses:</b> Robótica móvil, automatización <br><br>
 
 <p style="max-width:500px;">
-Escribe aquí una breve presentación del integrante. Puedes hablar de lo que le gusta, en qué es bueno o en qué está trabajando.
+Me interesa mucho la simulación y cómo se pueden modelar sistemas mecatrónicos para entender mejor su comportamiento. También me gusta la automatización y la robótica , sobre todo ver cómo funcionan y cómo se pueden mejorar.
 </p>
 
 <br><br>
