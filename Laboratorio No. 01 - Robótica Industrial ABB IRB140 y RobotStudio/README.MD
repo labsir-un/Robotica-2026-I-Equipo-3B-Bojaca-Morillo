@@ -79,7 +79,10 @@ Finalmente, el robot retorna a la posición Home, completando el ciclo de trabaj
 </p>
 
 
-## Diagrama de flujo de acciones del robot
+## Diagrama de flujo de acciones del robot 
+<p align="center">
+  <img src=""C:\Users\mafes\Downloads\mermaid-diagram (21).png"" width="600"/>
+</p>
 
 
 
