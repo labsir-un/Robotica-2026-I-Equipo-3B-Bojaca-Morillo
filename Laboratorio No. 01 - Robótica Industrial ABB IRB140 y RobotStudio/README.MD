@@ -140,50 +140,16 @@ EJEMPLO:
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=2400&pause=900&color=00E5FF&center=true&vCenter=true&width=900&repeat=true&lines=Aqu%C3%AD+puedes+visualizar%3A;Video+de+la+pr%C3%A1ctica+(laboratorio);Video+de+la+simulaci%C3%B3n+(RobotStudio)" alt="Animación videos">
 </p>
-## 🎥 Demo del proyecto
+##  Video del proyecto
 
-[![Ver video](https://img.youtube.com/vi/4BFG37g7pAk/0.jpg)](https://www.youtube.com/watch?v=4BFG37g7pAk)
+[![Ver video](https://img.youtube.com/vi/Kp8faPYFbeI/0.jpg)](https://www.youtube.com/watch?v=Kp8faPYFbeI)
 ---
-##  Video de la simulación (RobotStudio)
 
-<p align="center">
-  <a href="https://youtu.be/w56WQL795BM">
-    <img src="https://img.youtube.com/vi/w56WQL795BM/hqdefault.jpg" alt="Ver video de la simulación en RobotStudio" />
-  </a>
-</p>
 
-<p align="center">
-  <a href="https://youtu.be/w56WQL795BM">
-    <img src="https://img.shields.io/badge/Ver%20en%20YouTube-%F0%9F%94%B4-blue?style=for-the-badge" alt="Ver en YouTube">
-  </a>
-</p>
 
-###  Descripción (simulación)
-**Simulación en RobotStudio** de la misma célula y lógica:
-- MoveJ:EJEMPLO
-- MoveJ:EJEMPLO
-- MoveJ:EJEMPLO
 
-##  Video de la práctica (laboratorio)
 
-<p align="center">
-  <a href="https://youtu.be/gwcXK-_C6pA?si=X1zZq3yhsR2akUh2">
-    <img src="https://img.youtube.com/vi/gwcXK-_C6pA/hqdefault.jpg" alt="Ver video de la práctica" />
-  </a>
-</p>
 
-<p align="center">
-  <a href="https://youtu.be/gwcXK-_C6pA?si=X1zZq3yhsR2akUh2">
-    <img src="https://img.shields.io/badge/Ver%20en%20YouTube-%F0%9F%94%B4-red?style=for-the-badge" alt="Ver en YouTube">
-  </a>
-</p>
-
-###  Descripción (práctica)
-**Grabación real en laboratorio** ejecutando la secuencia programada en RAPID sobre un **ABB IRB 140 / IRC5**:
-- EJEMPLO
-- EJEMPLO
-- EJEMPLO
-- EJEMPLO
 
 ---
 
