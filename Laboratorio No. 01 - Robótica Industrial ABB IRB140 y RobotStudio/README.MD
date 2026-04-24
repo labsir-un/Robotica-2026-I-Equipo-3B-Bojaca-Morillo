@@ -140,7 +140,9 @@ EJEMPLO:
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=2400&pause=900&color=00E5FF&center=true&vCenter=true&width=900&repeat=true&lines=Aqu%C3%AD+puedes+visualizar%3A;Video+de+la+pr%C3%A1ctica+(laboratorio);Video+de+la+simulaci%C3%B3n+(RobotStudio)" alt="Animación videos">
 </p>
+## 🎥 Demo del proyecto
 
+[![Ver video](https://img.youtube.com/vi/4BFG37g7pAk/0.jpg)](https://www.youtube.com/watch?v=4BFG37g7pAk)
 ---
 ##  Video de la simulación (RobotStudio)
 
