@@ -132,7 +132,7 @@ flowchart TD
   Utilizado para mover el robot directamente a configuraciones articulares específicas, como la posición Home.
 
 ## Código Rapid
-[Hacer clic aquí para ver el código RAPID](https://drive.google.com/file/d/1EwIjLhzsObqGKkeLNUioe4b32cYNhYXg/view?usp=sharing)
+[Hacer clic aquí para ver el código RAPID](https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/c7ba862daa8eb41e73f25fe1edb4bccd65b58798/Laboratorio%20No.%2001%20-%20Rob%C3%B3tica%20Industrial%20ABB%20IRB140%20y%20RobotStudio/assets/src/Module1.mod)
 
 ## Plano de planta de los elementos de trabajo
 EJEMPLO. [Hacer clic aquí para ver el plano de planta en RobotStudio](https://github.com/Nicolas-Eule/Laboratorio_Robotica_1/blob/main/assets/img/Plano_de_planta.png)
