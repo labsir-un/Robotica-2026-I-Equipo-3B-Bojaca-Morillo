@@ -263,29 +263,15 @@ La trayectoria permitió:
 ---
 
 # 9. Diagrama de flujo
-
-```text
-Inicio
-   ↓
-Encender robot
-   ↓
-Seleccionar modo manual
-   ↓
-Configurar velocidad
-   ↓
-Mover robot manualmente
-   ↓
-Abrir RoboDK
-   ↓
-Crear trayectoria
-   ↓
-Simular movimiento
-   ↓
-Enviar programa al robot
-   ↓
-Ejecutar trayectoria física
-   ↓
-Fin
+```mermaid
+flowchart TD
+    A[Inicio] --> B[Encender Robot]
+    B --> C[Activar Servos]
+    C --> D[Abrir RoboDK]
+    D --> E[Programar Trayectoria]
+    E --> F[Simulación]
+    F --> G[Ejecución Física]
+    G --> H[Fin]
 ```
 
 ---
