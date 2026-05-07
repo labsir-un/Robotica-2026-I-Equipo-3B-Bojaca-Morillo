@@ -36,14 +36,14 @@ Me interesa mucho la simulación y cómo se pueden modelar sistemas mecatrónico
 Actualmente estoy en décimo semestre de Ingeniería. Me interesa el área de control de robots, especialmente entender cómo funcionan y cómo se pueden hacer más precisos. También me llama la atención la parte de manipulación.
 </p>
 
-</div>
----
+
+
 # Introducción
 
 En este laboratorio se realizó el análisis y operación del manipulador industrial Motoman MH6, comparándolo con el ABB IRB140 en términos de características técnicas, configuraciones iniciales y modos de operación.  
 
 Además, se trabajó con el software RoboDK para la simulación y ejecución de trayectorias, implementando una trayectoria polar tanto en simulación como en el manipulador físico.
-
+</div>
 ---
 
 # Objetivos
