@@ -37,17 +37,6 @@ Actualmente estoy en décimo semestre de Ingeniería. Me interesa el área de co
 </p>
 
 
-
-# Laboratorio No. 02 - Robótica Industrial  
-## Análisis y Operación del Manipulador Motoman MH6
-
-### Integrantes
-- Nombre 1
-- Nombre 2
-
-### Curso
-Robótica Industrial – 2026-I
-
 ---
 
 # Introducción
