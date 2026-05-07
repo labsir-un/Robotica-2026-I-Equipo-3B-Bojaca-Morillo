@@ -37,6 +37,7 @@ Actualmente estoy en décimo semestre de Ingeniería. Me interesa el área de co
 </p>
 
 </div>
+---
 # Introducción
 
 En este laboratorio se realizó el análisis y operación del manipulador industrial Motoman MH6, comparándolo con el ABB IRB140 en términos de características técnicas, configuraciones iniciales y modos de operación.  
