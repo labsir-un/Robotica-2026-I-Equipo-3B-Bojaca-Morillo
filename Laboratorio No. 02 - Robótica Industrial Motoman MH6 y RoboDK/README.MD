@@ -37,280 +37,384 @@ Actualmente estoy en décimo semestre de Ingeniería. Me interesa el área de co
 </p>
 
 
-# 1. Introducción
+# Laboratorio No. 02 – Robótica Industrial
+## Análisis y Operación del Manipulador Motoman MH6 usando RoboDK
 
-Los manipuladores industriales son ampliamente utilizados en procesos de automatización debido a su precisión, velocidad y capacidad para ejecutar tareas repetitivas. En este laboratorio se realizó el análisis del manipulador industrial Motoman MH6 y su comparación con el ABB IRB140, identificando sus principales características técnicas, configuraciones iniciales y modos de operación manual.
+---
+---
 
-Además, se trabajó con el software RoboDK para la simulación y ejecución de trayectorias, permitiendo comprender la comunicación entre el software y el manipulador físico. Finalmente, se desarrolló una trayectoria polar ejecutada tanto en simulación como en el robot real.
+# Introducción
+
+En este laboratorio se trabajó con el manipulador industrial Motoman MH6 utilizando el software RoboDK para programar trayectorias, simular movimientos y ejecutar figuras mediante control cartesiano.
+
+El objetivo principal fue comprender el funcionamiento del robot, los modos de operación manual y la comunicación entre RoboDK y el manipulador físico. Además, se desarrolló una trayectoria polar y un sistema de dibujo automatizado usando listas de coordenadas programadas en Python.
 
 ---
 
-# 2. Cuadro comparativo Motoman MH6 vs ABB IRB140
+# Comparación entre Motoman MH6 y ABB IRB140
 
 | Característica | Motoman MH6 | ABB IRB140 |
 |---|---|---|
 | Fabricante | Yaskawa Motoman | ABB |
 | Grados de libertad | 6 | 6 |
 | Carga máxima | 6 kg | 6 kg |
-| Alcance máximo | 1422 mm | 810 mm |
+| Alcance | 1422 mm | 810 mm |
 | Repetibilidad | ±0.08 mm | ±0.03 mm |
-| Peso del robot | Aproximadamente 130 kg | Aproximadamente 98 kg |
-| Tipo de robot | Manipulador articulado industrial | Manipulador articulado industrial |
-| Aplicaciones típicas | Soldadura, manipulación, ensamble, pick and place | Ensamble, laboratorio, pick and place |
-| Velocidad | Alta velocidad industrial | Alta precisión |
-| Área de trabajo | Mayor alcance operativo | Área de trabajo más compacta |
-| Software principal | RoboDK | RobotStudio |
+| Aplicación | Soldadura, manipulación | Ensamble y precisión |
+| Software | RoboDK | RobotStudio |
+| Velocidad | Alta | Media-Alta |
 
-## Análisis comparativo
+## Análisis
 
-El Motoman MH6 posee un mayor alcance de trabajo, lo cual lo hace adecuado para aplicaciones industriales de mayor tamaño y manipulación de objetos en áreas amplias. Por otro lado, el ABB IRB140 ofrece una mejor repetibilidad y precisión, siendo útil para tareas que requieren movimientos más exactos.
-
-El Motoman MH6 está más orientado a procesos industriales robustos, mientras que el IRB140 suele emplearse en aplicaciones académicas, laboratorios y líneas compactas de producción.
+El Motoman MH6 posee un alcance mucho mayor, permitiendo trabajar en áreas industriales más amplias. El ABB IRB140 ofrece mayor precisión y repetibilidad, siendo ideal para aplicaciones académicas y tareas de ensamblaje fino.
 
 ---
 
-# 3. Configuraciones Home1 y Home2 del Motoman MH6
+# Configuraciones Home1 y Home2
 
 ## Home1
 
-La configuración Home1 corresponde a la posición inicial estándar del robot. En esta posición:
+La posición Home1 corresponde a la posición inicial segura del robot:
 
-- El robot mantiene una postura segura.
-- Los ejes están alineados de manera convencional.
-- Se minimiza el riesgo de colisiones.
-- Facilita el inicio de programas automáticos.
+- Todas las articulaciones se encuentran alineadas.
+- Reduce riesgo de colisiones.
+- Facilita la ejecución de programas automáticos.
 
 ## Home2
 
-La configuración Home2 corresponde a una postura alternativa del robot:
+La posición Home2 corresponde a una postura alternativa:
 
-- Cambia la orientación de algunos ejes.
-- Permite mayor flexibilidad dependiendo de la aplicación.
-- Puede acercar el manipulador a ciertas zonas de trabajo específicas.
+- Cambia orientación de algunos ejes.
+- Permite acceder mejor a ciertas zonas de trabajo.
 
-## ¿Cuál posición es mejor?
+## Mejor configuración
 
-La posición Home1 se considera más adecuada debido a que ofrece una postura más segura y estable para iniciar operaciones. Además, reduce riesgos de colisión y facilita la programación inicial del manipulador.
-
-Sin embargo, Home2 puede ser útil en aplicaciones donde se requiera una orientación específica del brazo robótico.
+La configuración Home1 es más adecuada debido a que ofrece mayor seguridad y estabilidad para iniciar movimientos automáticos y manuales.
 
 ---
 
-# 4. Movimiento manual del manipulador Motoman MH6
+# Movimiento manual del Motoman MH6
 
 ## Movimiento por articulaciones
 
-Para realizar movimientos por articulaciones se utiliza el modo:
+Se utiliza el modo:
 
-- `Joint`
+```python
+Joint
+```
 
-En este modo cada eje del robot se mueve individualmente.
-
-### Procedimiento
-
-1. Seleccionar el modo manual.
-2. Ingresar al menú de movimiento.
-3. Seleccionar modo `Joint`.
-4. Elegir la articulación deseada.
-5. Utilizar las teclas de dirección para mover el eje.
-
----
+Permite mover individualmente cada eje del robot.
 
 ## Movimiento cartesiano
 
-Para realizar movimientos cartesianos se utiliza el modo:
+Se utiliza el modo:
 
-- `Cartesian`
+```python
+Cartesian
+```
 
-Este modo permite mover el TCP del robot en los ejes X, Y y Z.
+Permite mover el TCP del robot en:
 
-### Traslaciones
+- X
+- Y
+- Z
 
-- X+: movimiento positivo en X
-- X-: movimiento negativo en X
-- Y+: movimiento positivo en Y
-- Y-: movimiento negativo en Y
-- Z+: movimiento positivo en Z
-- Z-: movimiento negativo en Z
-
-### Rotaciones
+y también realizar rotaciones:
 
 - Rx
 - Ry
 - Rz
 
-Estas rotaciones permiten cambiar la orientación de la herramienta del robot.
-
 ---
 
-# 5. Niveles de velocidad del Motoman MH6
+# Control de velocidad
 
-El robot posee diferentes niveles de velocidad para operación manual.
+El Motoman MH6 permite modificar la velocidad manual mediante porcentajes visibles en la interfaz.
 
-## Características
-
-- Velocidad baja para movimientos precisos.
-- Velocidad media para pruebas.
-- Velocidad alta para desplazamientos rápidos.
-
-## Cambio de velocidad
-
-El cambio de velocidad se realiza desde el panel de control utilizando las opciones de velocidad manual.
-
-### Procedimiento
-
-1. Ingresar al menú de velocidad.
-2. Seleccionar el porcentaje deseado.
-3. Confirmar el cambio.
-
-## Identificación en pantalla
-
-El nivel de velocidad aparece indicado en la interfaz del robot mediante un porcentaje (%).
-
-Ejemplo:
+Ejemplos:
 
 - 10%
 - 25%
 - 50%
 - 100%
 
+## Cambio de velocidad
+
+El cambio se realiza desde el panel de control del robot seleccionando el porcentaje deseado.
+
 ---
 
-# 6. RoboDK
+# Uso de RoboDK
 
 ## Aplicaciones principales
 
-RoboDK es un software utilizado para:
+RoboDK permite:
 
-- Simulación de robots industriales.
-- Programación offline.
-- Diseño de trayectorias.
-- Validación de movimientos.
-- Generación de código para robots reales.
+- Simular robots industriales.
+- Programar trayectorias.
+- Validar movimientos.
+- Generar código automático.
+- Controlar robots físicos.
 
-## ¿Cómo mueve el manipulador?
+## Comunicación con el robot
 
-RoboDK calcula las trayectorias y genera instrucciones que son enviadas al controlador del robot para ejecutar los movimientos.
+La comunicación se realiza mediante Ethernet y protocolos TCP/IP utilizando drivers compatibles con el controlador Motoman.
 
-## Comunicación con el manipulador
-
-La comunicación puede realizarse mediante:
-
-- Ethernet
-- TCP/IP
-- Drivers específicos del fabricante
-
-RoboDK envía comandos al controlador del robot para sincronizar los movimientos físicos con la simulación virtual.
+RoboDK calcula las trayectorias y envía instrucciones al robot para ejecutar movimientos reales.
 
 ---
 
-# 7. Comparación RoboDK vs RobotStudio
+# Comparación RoboDK vs RobotStudio
 
 | Característica | RoboDK | RobotStudio |
 |---|---|---|
-| Compatibilidad | Multimarca | Principalmente ABB |
+| Compatibilidad | Multimarca | ABB |
 | Facilidad de uso | Alta | Media |
-| Simulación | Sí | Sí |
 | Programación offline | Sí | Sí |
-| Uso académico | Muy común | Común |
-| Interfaz | Intuitiva | Más técnica |
-| Aplicaciones | General industrial | Especializado ABB |
+| Simulación | Sí | Sí |
+| Aplicación | General | Especializada ABB |
 
 ## Análisis
 
-RoboDK es una herramienta flexible y compatible con múltiples marcas de robots, facilitando el aprendizaje y la simulación general.
-
-RobotStudio está más enfocado en robots ABB y ofrece herramientas avanzadas específicas para esa plataforma.
-
-## Interpretación personal
-
-RoboDK representa una herramienta práctica para simulación y aprendizaje rápido de robótica industrial. RobotStudio representa una plataforma más especializada para aplicaciones industriales avanzadas con robots ABB.
+RoboDK es una plataforma más flexible y sencilla para programación general de robots industriales, mientras que RobotStudio está enfocado específicamente en robots ABB.
 
 ---
 
-# 8. Trayectoria polar
+# Explicación del código desarrollado
 
-## Descripción
+El programa desarrollado en Python utiliza la API de RoboDK para controlar el manipulador Motoman MH6 y ejecutar trayectorias automáticamente.
 
-Se programó una trayectoria polar en RoboDK utilizando movimientos circulares y coordenadas polares.
+## Librerías utilizadas
 
-La trayectoria permitió:
+```python
+from robodk.robolink import *
+from robodk.robomath import *
+import math
+import time
+```
 
-- Simular el movimiento del robot.
-- Verificar colisiones.
-- Ejecutar el movimiento físicamente.
+Estas librerías permiten:
 
-## Procedimiento general
-
-1. Crear estación de trabajo en RoboDK.
-2. Importar robot Motoman MH6.
-3. Definir puntos de trayectoria.
-4. Programar movimiento circular.
-5. Simular la trayectoria.
-6. Enviar programa al robot físico.
-7. Ejecutar movimiento desde el PC.
+- Conectar RoboDK con el robot.
+- Realizar transformaciones matemáticas.
+- Ejecutar movimientos cartesianos.
+- Generar trayectorias polares.
 
 ---
 
-# 9. Diagrama de flujo
-```mermaid
-flowchart TD
-    A[Inicio] --> B[Encender Robot]
-    B --> C[Activar Servos]
-    C --> D[Abrir RoboDK]
-    D --> E[Programar Trayectoria]
-    E --> F[Simulación]
-    F --> G[Ejecución Física]
-    G --> H[Fin]
+# Inicialización del robot
+
+El programa inicia conectándose a RoboDK:
+
+```python
+RDK = Robolink()
+```
+
+Luego se selecciona el robot:
+
+```python
+robot = RDK.ItemUserPick("Selecciona un robot", ITEM_TYPE_ROBOT)
+```
+
+Posteriormente se asigna el frame de trabajo:
+
+```python
+frame_name = "Frame_from_Target1"
+frame = RDK.Item(frame_name, ITEM_TYPE_FRAME)
+robot.setPoseFrame(frame)
 ```
 
 ---
 
-# 10. Plano de planta
+# Configuración de velocidad
 
-Elementos presentes en la estación de trabajo:
+Se configura la velocidad del robot:
 
-- Manipulador Motoman MH6
-- Computador de control
-- Controlador del robot
-- Área de seguridad
-- Mesa de trabajo
-- Herramienta terminal
+```python
+robot.setSpeed(300)
+robot.setRounding(1)
+```
 
----
-
-# 11. Conclusiones
-
-- El Motoman MH6 posee mayor alcance y gran capacidad para aplicaciones industriales.
-- El ABB IRB140 destaca por su precisión y repetibilidad.
-- RoboDK facilita la simulación y programación offline del robot.
-- Los movimientos manuales permiten comprender el funcionamiento cinemático del manipulador.
-- La trayectoria polar permitió validar la comunicación entre el software y el robot físico.
-- La práctica fortaleció los conocimientos relacionados con operación y programación de manipuladores industriales.
+- `setSpeed(300)` establece velocidad de 300 mm/s.
+- `setRounding(1)` suaviza trayectorias.
 
 ---
 
-# 12. Evidencias
+# Movimiento inicial
 
-## Videos
+El robot se mueve primero a Home:
 
-- Simulación en RoboDK.
-- Ejecución física del robot.
-- Introducción oficial LabSIR.
+```python
+robot.MoveJ([0,0,0,0,0,0])
+```
 
-## Archivos anexos
+Luego se desplaza a una posición segura:
 
-- Código de trayectoria polar.
-- Capturas de simulación.
-- Video de funcionamiento.
+```python
+robot.MoveL(transl(x_dibujo, y_dibujo, z_surface + z_safe))
+```
 
 ---
 
-# 13. Referencias
+# Generación de trayectoria polar
 
-- Manual Motoman MH6  
-- Documentación ABB IRB140  
-- RoboDK Documentation  
-- Material de laboratorio de Robótica Industrial  
-- Coordenadas polares:  
-  https://www.monografias.com/trabajos33/coordenadas-polares/coordenadas-polares
+La trayectoria polar se genera usando ecuaciones paramétricas.
+
+## Ecuaciones utilizadas
+
+```python
+x = (A * math.cos(t)) / (1 + math.sin(t)**2)
+y = (A * math.sin(t) * math.cos(t)) / (1 + math.sin(t)**2)
+```
+
+Estas ecuaciones generan una curva polar suave.
+
+## Movimiento del robot
+
+El robot recorre la trayectoria usando:
+
+```python
+robot.MoveL(transl(x_rot, y_rot, z_surface))
+```
+
+El movimiento lineal permite mantener continuidad en el dibujo.
+
+---
+
+# Sistema de dibujo mediante coordenadas
+
+El arreglo:
+
+```python
+posiciones = [...]
+```
+
+contiene cientos de coordenadas XYZ utilizadas para dibujar texto y figuras.
+
+Cada coordenada define:
+
+- X → posición horizontal.
+- Y → posición vertical.
+- Z → altura del marcador.
+
+## Interpretación del eje Z
+
+- `z = 0` → marcador tocando superficie.
+- `z = 5` → marcador levantado.
+
+Esto permite simular:
+
+- escritura,
+- trazado,
+- separación entre letras.
+
+---
+
+# Rotación y offset del dibujo
+
+El programa aplica rotación y desplazamiento usando:
+
+```python
+x_rot = y + x_letras
+y_rot = x + y_letras
+```
+
+Esto permite:
+
+- cambiar orientación del dibujo,
+- posicionarlo correctamente en el plano de trabajo.
+
+---
+
+# Ejecución del dibujo
+
+El robot recorre todas las posiciones:
+
+```python
+for x, y, z in posiciones:
+```
+
+Dependiendo del valor de Z:
+
+- baja para dibujar,
+- sube para desplazarse sin marcar.
+
+---
+
+# Finalización
+
+Al terminar:
+
+```python
+robot.MoveJ([0,0,0,0,0,0])
+```
+
+el robot regresa a Home de manera segura.
+
+---
+
+# Diagrama de flujo
+
+```text
+Inicio
+   ↓
+Conexión con RoboDK
+   ↓
+Selección del robot
+   ↓
+Configuración del frame
+   ↓
+Definición de velocidad
+   ↓
+Movimiento a Home
+   ↓
+Generación trayectoria polar
+   ↓
+Dibujo usando coordenadas
+   ↓
+Movimiento final seguro
+   ↓
+Retorno a Home
+   ↓
+Fin
+```
+
+---
+
+# Resultados obtenidos
+
+- Se logró controlar el Motoman MH6 desde RoboDK.
+- Se ejecutaron trayectorias cartesianas correctamente.
+- El robot dibujó figuras usando listas de coordenadas.
+- Se implementó una trayectoria polar funcional.
+- Se validó la comunicación entre RoboDK y el manipulador físico.
+
+---
+
+# Conclusiones
+
+- RoboDK facilita la programación y simulación de robots industriales.
+- El Motoman MH6 permite ejecutar trayectorias complejas con buena precisión.
+- Las trayectorias polares pueden implementarse mediante ecuaciones matemáticas.
+- El uso de coordenadas XYZ permite automatizar dibujos y trayectorias.
+- La programación offline reduce riesgos antes de ejecutar movimientos reales.
+
+---
+
+# Archivos anexos
+
+- Código Python de RoboDK.
+- Video de simulación.
+- Evidencia física del robot.
+- Capturas de pantalla.
+- Trayectoria polar implementada.
+
+---
+
+# Referencias
+
+- Manual Motoman MH6
+- Documentación RoboDK
+- API RoboDK Python
+- Material de laboratorio de Robótica Industrial
+- https://www.monografias.com/trabajos33/coordenadas-polares/coordenadas-polares
