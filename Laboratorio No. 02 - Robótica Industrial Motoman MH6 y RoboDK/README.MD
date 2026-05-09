@@ -353,7 +353,7 @@ flowchart TD
 
 ## Video
 <p align="center">
- <a href="https://youtu.be/gFR4bGsgJpY">Laboratorio 2.</a>
+ <a href="https://studio.youtube.com/video/gFR4bGsgJpY/edit">Laboratorio2.</a>
 </p>
 ## Archivos anexos
 
