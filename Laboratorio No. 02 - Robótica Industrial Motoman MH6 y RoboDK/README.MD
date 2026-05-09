@@ -108,10 +108,12 @@ Sin embargo, Home2 puede ser útil en aplicaciones donde se requiera una orienta
 </p>
 
 2. Energizar el totalizador ubicado en el cofre totalizador para suministrar energía al sistema. 
+<p align="center">
   <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/Captura%20de%20pantalla%202026-05-08%20195800.png" width="250">
 </p>
 
 3. Girar la perilla ubicada en la puerta del controlador con el fin de energizar la unidad de control **DX100**. 
+<p align="center">
   <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/Captura%20de%20pantalla%202026-05-08%20195806.png" width="250">
 </p>
 
