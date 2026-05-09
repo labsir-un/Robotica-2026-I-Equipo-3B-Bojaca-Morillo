@@ -115,32 +115,33 @@ Sin embargo, Home2 puede ser útil en aplicaciones donde se requiera una orienta
 ---
 
 # 4. Movimiento manual del manipulador Motoman MH6
+# Inicialización del sistema
 
-## Movimiento por articulaciones
+1. Energizar los tres breakers identificados con el nombre **“MOTOMAN”**.  
 
-Para realizar movimientos por articulaciones se utiliza el modo:
+2. Energizar el totalizador ubicado en el cofre totalizador para suministrar energía al sistema.  
 
-- `Joint`
+3. Girar la perilla ubicada en la puerta del controlador con el fin de energizar la unidad de control **DX100**.  
 
-En este modo cada eje del robot se mueve individualmente.
+4. Desenrollar cuidadosamente el cable del **Teach Pendant**, evitando pisarlo o generar tensión sobre este. Posteriormente, ubicar el cable detrás del cuello, siguiendo las indicaciones de seguridad dadas durante la práctica.  
 
-### Procedimiento
+5. En el **Teach Pendant**, desactivar la parada de emergencia girando el botón tipo hongo (*Emergency Stop Button*) en sentido horario hasta liberar el sistema.  
 
-1. Seleccionar el modo manual.
-2. Ingresar al menú de movimiento.
-3. Seleccionar modo `Joint`.
-4. Elegir la articulación deseada.
-5. Utilizar las teclas de dirección para mover el eje.
+6. Mediante el selector de modo (*Mode Switch*) y la llave de seguridad, configurar el robot en modo **Teach**, permitiendo así la programación y manipulación manual del manipulador.  
 
----
+7. Desde el menú principal del **Teach Pendant**, seleccionar la opción **Robot** para acceder al control directo del manipulador.  
 
-## Movimiento cartesiano
+8. Para habilitar el funcionamiento del robot y permitir la ejecución de movimientos, presionar el botón **SERVO ON READY**. La activación de los servomotores se confirmará cuando el indicador luminoso permanezca encendido mientras se mantiene presionado el botón de hombre muerto (*Deadman Switch*).  
+## Procedimiento detallado de movimientos manuales (articular ↔ cartesiano;  traslaciones/rotaciones X‑Y‑Z)
 
-Para realizar movimientos cartesianos se utiliza el modo:
+1. La selección del sistema de coordenadas y del tipo de movimiento se realiza mediante el botón **COORD**. Dependiendo del modo seleccionado, en la parte superior de la pantalla aparecerá el ícono correspondiente al sistema de movimiento activo.  
+
+12. En el modo de movimiento articular (*Joint*), el robot se desplaza manipulando individualmente cada una de sus articulaciones. 
+
+
+12. En el modo de movimiento cartesiano, el desplazamiento del robot se realiza respecto al espacio de trabajo. En este caso, se emplean los botones asociados a los ejes **X, Y** y **Z**, permitiendo movimientos lineales en cada dirección del sistema cartesiano.  
 
 - `Cartesian`
-
-Este modo permite mover el TCP del robot en los ejes X, Y y Z.
 
 ### Traslaciones
 
@@ -160,6 +161,7 @@ Este modo permite mover el TCP del robot en los ejes X, Y y Z.
 Estas rotaciones permiten cambiar la orientación de la herramienta del robot.
 
 ---
+13. Finalmente, verificar en la parte superior de la pantalla del **Teach Pendant** el ícono correspondiente al modo de movimiento seleccionado antes de ejecutar cualquier desplazamiento del manipulador.
 
 # 5. Niveles de velocidad del Motoman MH6
 
