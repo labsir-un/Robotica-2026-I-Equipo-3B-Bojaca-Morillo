@@ -35,22 +35,12 @@ Me interesa mucho la simulación y cómo se pueden modelar sistemas mecatrónico
 <p style="max-width:500px;">
 Actualmente estoy en décimo semestre de Ingeniería. Me interesa el área de control de robots, especialmente entender cómo funcionan y cómo se pueden hacer más precisos. También me llama la atención la parte de manipulación.
 </p>
-
-
+</div>
 # Laboratorio No. 02 – Robótica Industrial
 ## Análisis y Operación del Manipulador Motoman MH6 usando RoboDK
 
 ---
 ---
-
-# Laboratorio No. 02 – Robótica Industrial  
-## Análisis y Operación del Manipulador Motoman MH6
-
----
-
-# Integrantes
-- Nombre integrante 1  
-- Nombre integrante 2  
 
 ---
 
