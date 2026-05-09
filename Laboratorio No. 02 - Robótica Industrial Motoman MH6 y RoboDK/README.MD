@@ -102,6 +102,9 @@ Sin embargo, Home2 puede ser útil en aplicaciones donde se requiera una orienta
 # 4. Movimiento manual del manipulador Motoman MH6
 # Inicialización del sistema
 
+
+<img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/Captura%20de%20pantalla%202026-05-08%20195753.png" width="500">
+
 1. Energizar los tres breakers identificados con el nombre **“MOTOMAN”**.  
 
 2. Energizar el totalizador ubicado en el cofre totalizador para suministrar energía al sistema.  
