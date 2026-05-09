@@ -353,7 +353,7 @@ flowchart TD
 
 ## Video
 <p align="center">
- <a href="https://youtu.be/FirRa09EzyU">Código de trayectoria polar.</a>
+ <a href="https://youtu.be/gFR4bGsgJpY">Laboratorio 2.</a>
 </p>
 ## Archivos anexos
 
