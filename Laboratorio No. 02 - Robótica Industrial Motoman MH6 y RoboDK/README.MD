@@ -305,42 +305,76 @@ La trayectoria permitió:
 
 # 9. Diagrama de flujo
 
-```text
-Inicio
-   ↓
-Encender robot
-   ↓
-Seleccionar modo manual
-   ↓
-Configurar velocidad
-   ↓
-Mover robot manualmente
-   ↓
-Abrir RoboDK
-   ↓
-Crear trayectoria
-   ↓
-Simular movimiento
-   ↓
-Enviar programa al robot
-   ↓
-Ejecutar trayectoria física
-   ↓
-Fin
+```mermaid
+flowchart TD
+
+    A[Inicio del Programa] --> B[Importar librerías RoboDK y matemáticas]
+    B --> C[Esperar 2 segundos]
+    C --> D[Cargar lista de posiciones]
+
+    D --> E[Conectar con RoboDK]
+    E --> F[Seleccionar robot]
+
+    F --> G{¿Robot válido?}
+
+    G -- No --> H[Generar excepción y finalizar]
+    G -- Sí --> I[Mostrar mensaje de conexión]
+
+    I --> J[Buscar Frame Frame_from_Target1]
+
+    J --> K{¿Frame existe?}
+
+    K -- No --> L[Generar excepción]
+    K -- Sí --> M[Asignar Frame al robot]
+
+    M --> N[Configurar velocidad y blending]
+
+    N --> O[Ir a posición Home]
+
+    O --> P[Mover robot a posición segura]
+
+    P --> Q[Generar trayectoria polar]
+
+    Q --> R[Calcular puntos usando ecuaciones polares]
+
+    R --> S[Transformar coordenadas]
+
+    S --> T[Mover robot con MoveL]
+
+    T --> U{¿Quedan puntos?}
+
+    U -- Sí --> R
+    U -- No --> V[Subir herramienta a altura segura]
+
+    V --> W[Configurar parámetros para dibujar texto]
+
+    W --> X[Ir al inicio del texto]
+
+    X --> Y[Recorrer lista de posiciones]
+
+    Y --> Z{¿Z = altura segura?}
+
+    Z -- Sí --> AA[Levantar herramienta]
+    Z -- No --> AB[Bajar herramienta y dibujar]
+
+    AA --> AC{¿Quedan posiciones?}
+    AB --> AC
+
+    AC -- Sí --> Y
+    AC -- No --> AD[Subir herramienta]
+
+    AD --> AE[Regresar a posición Home]
+
+    AE --> AF[Mostrar mensaje Figura completada]
+
+    AF --> AG[Fin]
 ```
 
 ---
 
 # 10. Plano de planta
 
-Elementos presentes en la estación de trabajo:
 
-- Manipulador Motoman MH6
-- Computador de control
-- Controlador del robot
-- Área de seguridad
-- Mesa de trabajo
-- Herramienta terminal
 
 ---
 
@@ -357,25 +391,14 @@ Elementos presentes en la estación de trabajo:
 
 # 12. Evidencias
 
-## Videos
+## Video
 
-- Simulación en RoboDK.
-- Ejecución física del robot.
-- Introducción oficial LabSIR.
+
 
 ## Archivos anexos
 
 - Código de trayectoria polar.
-- Capturas de simulación.
-- Video de funcionamiento.
+
 
 ---
 
-# 13. Referencias
-
-- Manual Motoman MH6  
-- Documentación ABB IRB140  
-- RoboDK Documentation  
-- Material de laboratorio de Robótica Industrial  
-- Coordenadas polares:  
-  https://www.monografias.com/trabajos33/coordenadas-polares/coordenadas-polares
