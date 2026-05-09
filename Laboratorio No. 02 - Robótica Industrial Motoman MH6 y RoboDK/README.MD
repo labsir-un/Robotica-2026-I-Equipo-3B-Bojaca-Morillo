@@ -119,7 +119,11 @@ Sin embargo, Home2 puede ser útil en aplicaciones donde se requiera una orienta
 
 4. Desenrollar cuidadosamente el cable del **Teach Pendant**, evitando pisarlo o generar tensión sobre este. Posteriormente, ubicar el cable detrás del cuello, siguiendo las indicaciones de seguridad dadas durante la práctica.  
 
-5. En el **Teach Pendant**, desactivar la parada de emergencia girando el botón tipo hongo (*Emergency Stop Button*) en sentido horario hasta liberar el sistema.  
+5. En el **Teach Pendant**, desactivar la parada de emergencia girando el botón tipo hongo (*Emergency Stop Button*) en sentido horario hasta liberar el sistema.
+<p align="center">
+  <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/Captura%20de%20pantalla%202026-05-08%20195812.png" width="250">
+</p>
+
 
 6. Mediante el selector de modo (*Mode Switch*) y la llave de seguridad, configurar el robot en modo **Teach**, permitiendo así la programación y manipulación manual del manipulador.  
 
