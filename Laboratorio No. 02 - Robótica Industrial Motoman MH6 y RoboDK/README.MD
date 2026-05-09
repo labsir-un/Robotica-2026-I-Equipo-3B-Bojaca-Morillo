@@ -129,9 +129,10 @@ Sin embargo, Home2 puede ser útil en aplicaciones donde se requiera una orienta
 <p align="center">
   <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/Captura%20de%20pantalla%202026-05-08%20195819.png" width="250">
 </p>
-7. Desde el menú principal del **Teach Pendant**, seleccionar la opción **Robot** para acceder al control directo del manipulador.  
 
-8. Para habilitar el funcionamiento del robot y permitir la ejecución de movimientos, presionar el botón **SERVO ON READY**. La activación de los servomotores se confirmará cuando el indicador luminoso permanezca encendido mientras se mantiene presionado el botón de hombre muerto (*Deadman Switch*). 
+7. Desde el menú principal del Teach Pendant, seleccionar la opción **Robot** para acceder al control directo del manipulador.  
+
+8. Para habilitar el funcionamiento del robot y permitir la ejecución de movimientos, presionar el botón SERVO ON READY. La activación de los servomotores se confirmará cuando el indicador luminoso permanezca encendido mientras se mantiene presionado el botón de hombre muerto (*Deadman Switch*). 
 <p align="center">
   <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/Captura%20de%20pantalla%202026-05-08%20195826.png" width="250">
 </p>
