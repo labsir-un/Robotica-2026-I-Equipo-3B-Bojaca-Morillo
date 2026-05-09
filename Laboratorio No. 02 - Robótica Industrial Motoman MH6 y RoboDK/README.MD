@@ -316,13 +316,14 @@ flowchart TD
 
     C --> D[Inicio de rutina]
 
-    D --> E[Posición Home]
+    D --> E[Posición Home] 
+    E --> F[Generar trayectoria polar]
 
-    E --> F[Escribir Nombre 1]
+    F--> G[Escribir Gabriel Eduardo]
 
-    F --> G[Escribir Nombre 2]
+    G --> H[Escribir Maria Fernanda]
 
-    G --> H[Generar trayectoria polar]
+   
 
     H --> I[Regresar a Home]
 
