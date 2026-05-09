@@ -74,28 +74,43 @@ El Motoman MH6 está más orientado a procesos industriales robustos, mientras q
 # 3. Configuraciones Home1 y Home2 del Motoman MH6
 
 ## Home1
+<p align="center">
+  <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/505683419-e92957dd-9720-4434-ab57-77ba89957654.jpg" width="300">
+</p>
 
+| Articulación | Posición aproximada | Descripción |
+|---|---|---|
+| J1 – Base | 0° | La base está orientada hacia el frente del área de trabajo. |
+| J2 – Hombro | -90° aprox. | El brazo principal se encuentra descendido y plegado horizontalmente. |
+| J3 – Codo | +90° aprox. | El antebrazo está retraído hacia el cuerpo del robot. |
+| J4 – Muñeca Roll | 0° aprox. | La muñeca permanece alineada con el antebrazo. |
+| J5 – Muñeca Pitch | -90° aprox. | La herramienta se orienta hacia abajo. |
+| J6 – Muñeca Yaw | 0° aprox. | Mantiene la orientación final de la herramienta sin rotación adicional. |
 
-La configuración Home1 corresponde a la posición inicial estándar del robot. En esta posición:
-
-- El robot mantiene una postura segura.
-- Los ejes están alineados de manera convencional.
-- Se minimiza el riesgo de colisiones.
-- Facilita el inicio de programas automáticos.
 
 ## Home2
+<p align="center">
+  <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/home2.jpg" width="300">
+</p>
 
-La configuración Home2 corresponde a una postura alternativa del robot:
 
-- Cambia la orientación de algunos ejes.
-- Permite mayor flexibilidad dependiendo de la aplicación.
-- Puede acercar el manipulador a ciertas zonas de trabajo específicas.
+| Articulación | Posición aproximada | Descripción |
+|---|---|---|
+| J1 – Base | 0° | La base permanece orientada hacia el frente. |
+| J2 – Hombro | +90° aprox. | El brazo principal se encuentra elevado verticalmente. |
+| J3 – Codo | 0° aprox. | El antebrazo está extendido hacia adelante. |
+| J4 – Muñeca Roll | +90° aprox. | La muñeca rota para mantener la herramienta orientada hacia abajo. |
+| J5 – Muñeca Pitch | 0° aprox. | Mantiene estable la inclinación de la herramienta. |
+| J6 – Muñeca Yaw | 0° aprox. | Conserva la orientación final del efector. |
+
 
 ## ¿Cuál posición es mejor?
 
-La posición Home1 se considera más adecuada debido a que ofrece una postura más segura y estable para iniciar operaciones. Además, reduce riesgos de colisión y facilita la programación inicial del manipulador.
+No se trata de determinar cuál posición es mejor, ya que ambas configuraciones cumplen funciones diferentes dentro de la operación del manipulador.  
 
-Sin embargo, Home2 puede ser útil en aplicaciones donde se requiera una orientación específica del brazo robótico.
+La posición **Home1** se utiliza principalmente cuando el robot está completamente apagado, siendo adecuada para transporte, almacenamiento o estados seguros del sistema.  
+
+Por otro lado, la posición **Home2** corresponde al estado del robot una vez energizado y con los motores activados. Generalmente, esta es la posición de referencia utilizada durante la programación y ejecución de trayectorias, por lo que es importante tener en cuenta a cuál configuración *Home* se hace referencia dentro del código.
 
 ---
 
