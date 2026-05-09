@@ -126,18 +126,33 @@ Sin embargo, Home2 puede ser útil en aplicaciones donde se requiera una orienta
 
 
 6. Mediante el selector de modo (*Mode Switch*) y la llave de seguridad, configurar el robot en modo **Teach**, permitiendo así la programación y manipulación manual del manipulador.  
-
+<p align="center">
+  <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/Captura%20de%20pantalla%202026-05-08%20195819.png" width="250">
+</p>
 7. Desde el menú principal del **Teach Pendant**, seleccionar la opción **Robot** para acceder al control directo del manipulador.  
 
-8. Para habilitar el funcionamiento del robot y permitir la ejecución de movimientos, presionar el botón **SERVO ON READY**. La activación de los servomotores se confirmará cuando el indicador luminoso permanezca encendido mientras se mantiene presionado el botón de hombre muerto (*Deadman Switch*).  
+8. Para habilitar el funcionamiento del robot y permitir la ejecución de movimientos, presionar el botón **SERVO ON READY**. La activación de los servomotores se confirmará cuando el indicador luminoso permanezca encendido mientras se mantiene presionado el botón de hombre muerto (*Deadman Switch*). 
+<p align="center">
+  <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/Captura%20de%20pantalla%202026-05-08%20195826.png" width="250">
+</p>
+<p align="center">
+  <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/Captura%20de%20pantalla%202026-05-08%20195830.png" width="250">
+</p>
 ## Procedimiento detallado de movimientos manuales (articular ↔ cartesiano;  traslaciones/rotaciones X‑Y‑Z)
 
 1. La selección del sistema de coordenadas y del tipo de movimiento se realiza mediante el botón **COORD**. Dependiendo del modo seleccionado, en la parte superior de la pantalla aparecerá el ícono correspondiente al sistema de movimiento activo.  
+<p align="center">
+  <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/Captura%20de%20pantalla%202026-05-08%20195840.png" width="250">
+</p>
+2. En el modo de movimiento articular (*Joint*), el robot se desplaza manipulando individualmente cada una de sus articulaciones. 
+<p align="center">
+  <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/Captura%20de%20pantalla%202026-05-08%20195845.png" width="250">
+</p>
 
-12. En el modo de movimiento articular (*Joint*), el robot se desplaza manipulando individualmente cada una de sus articulaciones. 
-
-
-12. En el modo de movimiento cartesiano, el desplazamiento del robot se realiza respecto al espacio de trabajo. En este caso, se emplean los botones asociados a los ejes **X, Y** y **Z**, permitiendo movimientos lineales en cada dirección del sistema cartesiano.  
+3. En el modo de movimiento cartesiano, el desplazamiento del robot se realiza respecto al espacio de trabajo. En este caso, se emplean los botones asociados a los ejes **X, Y** y **Z**, permitiendo movimientos lineales en cada dirección del sistema cartesiano.  
+<p align="center">
+  <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/Captura%20de%20pantalla%202026-05-08%20195851.png" width="250">
+</p>
 
 - `Cartesian`
 
