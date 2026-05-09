@@ -227,9 +227,14 @@ RoboDK calcula las trayectorias y genera instrucciones que son enviadas al contr
 
 La comunicación puede realizarse mediante:
 
-- Ethernet
-- TCP/IP
-- Drivers específicos del fabricante
+- **Remote:**  
+  El robot es controlado desde el computador mediante conexión Ethernet, permitiendo ejecutar programas y realizar movimientos directamente desde RoboDK.
+
+- **Play:**  
+  El programa es transferido desde el computador al *teach pendant*. Posteriormente, el usuario inicia la ejecución presionando *Play* desde el panel del robot.
+
+- **Teach:**  
+  El robot es operado completamente desde el *teach pendant*, permitiendo realizar movimientos manuales, programación y configuración directamente en el controlador.
 
 RoboDK envía comandos al controlador del robot para sincronizar los movimientos físicos con la simulación virtual.
 
