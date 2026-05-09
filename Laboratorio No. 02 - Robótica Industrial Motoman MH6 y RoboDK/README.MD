@@ -202,8 +202,8 @@ El manipulador Motoman MH6 permite modificar la velocidad de los movimientos man
 3. El robot ajustará automáticamente la velocidad de movimiento manual.
 
 ### Identificación en pantalla
-
 La velocidad seleccionada se visualiza mediante un ícono o indicador en la parte superior de la pantalla del tech.
+<p align="center">
   <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/velocidad%201.png" width="250">
 ---
 
