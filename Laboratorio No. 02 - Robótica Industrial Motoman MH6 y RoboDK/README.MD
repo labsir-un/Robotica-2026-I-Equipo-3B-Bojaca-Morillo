@@ -179,35 +179,32 @@ Estas rotaciones permiten cambiar la orientación de la herramienta del robot.
 
 # 5. Niveles de velocidad del Motoman MH6
 
-El robot posee diferentes niveles de velocidad para operación manual.
+## Control de velocidad del Motoman MH6
 
-## Características
+El manipulador Motoman MH6 permite modificar la velocidad de los movimientos manuales desde el *teach pendant*, permitiendo mayor precisión y seguridad durante la operación.
 
-- Velocidad baja para movimientos precisos.
-- Velocidad media para pruebas.
-- Velocidad alta para desplazamientos rápidos.
+### Niveles de velocidad
 
-## Cambio de velocidad
+- `SLOW` → Movimiento lento y preciso.
+- `FAST` → Movimiento rápido.
+- `HIGH SPEED` → Movimiento de alta velocidad.
 
-El cambio de velocidad se realiza desde el panel de control utilizando las opciones de velocidad manual.
+### Cambio de velocidad
 
-### Procedimiento
+1. Identificar en el *teach pendant* los botones de velocidad.
+<p align="center">
+  <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/tech%20verlocidad.jpg" width="250">
+</p>
+2. Seleccionar el modo deseado:
+   - `SLOW`
+   - `FAST`
+   - `HIGH SPEED`
+3. El robot ajustará automáticamente la velocidad de movimiento manual.
 
-1. Ingresar al menú de velocidad.
-2. Seleccionar el porcentaje deseado.
-3. Confirmar el cambio.
+### Identificación en pantalla
 
-## Identificación en pantalla
-
-El nivel de velocidad aparece indicado en la interfaz del robot mediante un porcentaje (%).
-
-Ejemplo:
-
-- 10%
-- 25%
-- 50%
-- 100%
-
+La velocidad seleccionada se visualiza mediante un ícono o indicador en la parte superior de la pantalla del tech.
+  <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/velocidad%201.png" width="250">
 ---
 
 # 6. RoboDK
