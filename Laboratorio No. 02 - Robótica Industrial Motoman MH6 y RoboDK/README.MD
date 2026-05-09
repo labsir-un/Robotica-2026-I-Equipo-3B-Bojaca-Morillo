@@ -310,7 +310,7 @@ flowchart TD
 
     A([Inicio])
 
-    A --> B[Configuración del robot en RoboDK]
+    A --> B[Configuración RoboDK]
 
     B --> C[Cargar código Python]
 
