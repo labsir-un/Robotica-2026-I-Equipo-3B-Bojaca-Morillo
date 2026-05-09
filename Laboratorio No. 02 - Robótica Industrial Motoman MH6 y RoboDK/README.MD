@@ -308,66 +308,25 @@ La trayectoria permitió:
 ```mermaid
 flowchart TD
 
-    A[Inicio del Programa] --> B[Importar librerías RoboDK y matemáticas]
-    B --> C[Esperar 2 segundos]
-    C --> D[Cargar lista de posiciones]
+    A([Inicio])
 
-    D --> E[Conectar con RoboDK]
-    E --> F[Seleccionar robot]
+    A --> B[Configuración del robot en RoboDK]
 
-    F --> G{¿Robot válido?}
+    B --> C[Cargar código Python]
 
-    G -- No --> H[Generar excepción y finalizar]
-    G -- Sí --> I[Mostrar mensaje de conexión]
+    C --> D[Inicio de rutina]
 
-    I --> J[Buscar Frame Frame_from_Target1]
+    D --> E[Posición Home]
 
-    J --> K{¿Frame existe?}
+    E --> F[Escribir Nombre 1]
 
-    K -- No --> L[Generar excepción]
-    K -- Sí --> M[Asignar Frame al robot]
+    F --> G[Escribir Nombre 2]
 
-    M --> N[Configurar velocidad y blending]
+    G --> H[Generar trayectoria polar]
 
-    N --> O[Ir a posición Home]
+    H --> I[Regresar a Home]
 
-    O --> P[Mover robot a posición segura]
-
-    P --> Q[Generar trayectoria polar]
-
-    Q --> R[Calcular puntos usando ecuaciones polares]
-
-    R --> S[Transformar coordenadas]
-
-    S --> T[Mover robot con MoveL]
-
-    T --> U{¿Quedan puntos?}
-
-    U -- Sí --> R
-    U -- No --> V[Subir herramienta a altura segura]
-
-    V --> W[Configurar parámetros para dibujar texto]
-
-    W --> X[Ir al inicio del texto]
-
-    X --> Y[Recorrer lista de posiciones]
-
-    Y --> Z{¿Z = altura segura?}
-
-    Z -- Sí --> AA[Levantar herramienta]
-    Z -- No --> AB[Bajar herramienta y dibujar]
-
-    AA --> AC{¿Quedan posiciones?}
-    AB --> AC
-
-    AC -- Sí --> Y
-    AC -- No --> AD[Subir herramienta]
-
-    AD --> AE[Regresar a posición Home]
-
-    AE --> AF[Mostrar mensaje Figura completada]
-
-    AF --> AG[Fin]
+    I --> J([Fin])
 ```
 
 ---
