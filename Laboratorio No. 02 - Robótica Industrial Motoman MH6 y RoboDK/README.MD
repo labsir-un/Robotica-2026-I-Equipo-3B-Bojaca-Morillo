@@ -363,8 +363,10 @@ flowchart TD
 
 La posición del robot en el laboratorio se encuentra descrita en la siguiente imagen
 
-  <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/82d3fb82f93dc41f9e31022ba1c6e6dbedb2e195/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/Ubicacion_dos.png" width="300">
+<p align="center">
+   <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/82d3fb82f93dc41f9e31022ba1c6e6dbedb2e195/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/Ubicacion_dos.png" width="300">
 </p>
+
 Imagen Adaptada de “Plataforma de teleoperación sistema robótico de ocho grados de libertad”, por Parra Díaz, J. C., y Córdoba Nieto, E., 2015, Revista de Investigación Interdisciplinaria, (5).
 
 
