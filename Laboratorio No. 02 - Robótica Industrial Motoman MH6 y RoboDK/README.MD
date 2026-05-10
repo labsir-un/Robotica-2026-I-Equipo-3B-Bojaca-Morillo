@@ -358,6 +358,7 @@ flowchart TD
 
 # 10. Plano de planta
 
+<p align="center">
   <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/Captura%20de%20pantalla%202026-05-08%20222105.png" width="250">
 </p>
 
