@@ -383,7 +383,7 @@ flowchart TD
 ## Archivos anexos
 
 <p align="center">
-  <a href="https://drive.google.com/file/d/1etPyPojSfRLSzlARzzStKCdrfP5GbJfg/view?usp=sharing">Código de trayectoria polar.</a>
+  <a href="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/13068c1519209c8c3d8d58d6856bbd7647b22768/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/Codigo.py">Código de trayectoria polar.</a>
 </p>
 
 
