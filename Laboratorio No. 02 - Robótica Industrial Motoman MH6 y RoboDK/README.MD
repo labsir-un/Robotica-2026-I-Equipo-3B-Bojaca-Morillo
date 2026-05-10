@@ -93,6 +93,14 @@ El Motoman MH6 está más orientado a procesos industriales robustos, mientras q
   <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/home2.jpg" width="300">
 </p>
 
+<p align="center">
+  <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/Home_Dos_1.png" width="300">
+</p>
+
+<p align="center">
+  <img src="https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2002%20-%20Rob%C3%B3tica%20Industrial%20Motoman%20MH6%20y%20RoboDK/Tabla_Home_Dos.jpg" width="300">
+</p>
+
 
 | Articulación | Posición aproximada | Descripción |
 |---|---|---|
