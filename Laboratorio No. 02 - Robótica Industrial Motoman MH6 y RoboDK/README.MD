@@ -388,7 +388,7 @@ Imagen Adaptada de “Plataforma de teleoperación sistema robótico de ocho gra
 
 ## Video
 <p align="center">
- <a href="https://studio.youtube.com/video/gFR4bGsgJpY/edit">Laboratorio2.</a>
+ <a href="https://youtu.be/gFR4bGsgJpY">Laboratorio2.</a>
 </p>
 ## Archivos anexos
 
