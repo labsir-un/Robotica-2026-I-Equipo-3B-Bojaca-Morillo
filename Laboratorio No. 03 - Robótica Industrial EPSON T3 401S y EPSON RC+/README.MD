@@ -185,7 +185,7 @@ Ejemplos:
 El EPSON T3-401S permite ajustar la velocidad de los movimientos manuales mediante el parámetro **Speed**, configurado desde la interfaz de EPSON RC+. El operador puede seleccionar distintos niveles según la tarea a realizar y verificar el valor activo observando el indicador de velocidad mostrado en la ventana de control del robot.
 ## Análisis comparativo entre EPSON RC+ 7.0, RoboDK y RobotStudio
 
-EPSON RC+ 7.0, RoboDK y RobotStudio son herramientas ampliamente utilizadas en robótica industrial, pero cada una está orientada a necesidades diferentes. Mientras que EPSON RC+ está diseñado específicamente para robots Epson, RoboDK es una plataforma independiente compatible con múltiples fabricantes, y RobotStudio es la solución oficial de ABB para programación y simulación de robots ABB. :contentReference[oaicite:0]{index=0}
+EPSON RC+ 7.0, RoboDK y RobotStudio son herramientas ampliamente utilizadas en robótica industrial, pero cada una está orientada a necesidades diferentes. Mientras que EPSON RC+ está diseñado específicamente para robots Epson, RoboDK es una plataforma independiente compatible con múltiples fabricantes, y RobotStudio es la solución oficial de ABB para programación y simulación de robots ABB.
 
 ### Cuadro comparativo
 
