@@ -121,3 +121,65 @@ La orientación de la herramienta se controla mediante la articulación J4.
 | Cartesian | Permite mover el efector final respecto a los ejes X, Y y Z. |
 | Tool Rotation | Permite cambiar la orientación del efector final mediante J4. |
 
+## Niveles de velocidad para movimientos manuales
+
+Durante la operación manual del robot EPSON T3-401S, la velocidad de desplazamiento puede ajustarse para facilitar tareas de enseñanza, calibración y posicionamiento seguro. El control de velocidad permite modificar la rapidez con la que se ejecutan los movimientos manuales (Jog).
+
+### Importancia de los niveles de velocidad
+
+Los niveles de velocidad permiten:
+
+- Realizar movimientos precisos durante la enseñanza de puntos.
+- Reducir riesgos de colisión durante pruebas y calibración.
+- Incrementar la productividad cuando se requieren desplazamientos largos.
+- Ajustar la velocidad según la complejidad de la tarea.
+
+### Rangos de velocidad disponibles
+
+En EPSON RC+ la velocidad de movimiento se configura mediante el parámetro **Speed**, cuyo rango puede variar entre:
+
+| Parámetro | Rango |
+|------------|--------|
+| Speed | 1 % – 100 % |
+| Valor predeterminado | 5 % |
+
+A velocidades bajas el robot realiza movimientos lentos y precisos, mientras que a velocidades altas los desplazamientos son más rápidos pero requieren mayor atención del operador.
+
+### Cambio de nivel de velocidad
+
+Para modificar la velocidad de movimiento manual:
+
+1. Abrir el software **EPSON RC+**.
+2. Colocar el robot en modo **TEACH**.
+3. Acceder a la ventana **Jog & Teach**.
+4. Localizar el control **Speed**.
+5. Ajustar el porcentaje deseado mediante el control deslizante o introduciendo un valor numérico.
+6. Confirmar el nuevo valor antes de realizar movimientos manuales.
+
+### Identificación del nivel de velocidad actual
+
+La velocidad configurada puede identificarse directamente en la interfaz de EPSON RC+ mediante:
+
+- El indicador **Speed (%)** mostrado en la ventana de Jog.
+- La barra deslizante de velocidad.
+- El valor numérico asociado al parámetro de velocidad activa.
+
+Ejemplos:
+
+| Valor Speed | Comportamiento |
+|------------|---------------|
+| 5 % | Movimiento muy lento y seguro para enseñanza |
+| 25 % | Movimiento moderado para posicionamiento |
+| 50 % | Velocidad media para pruebas |
+| 100 % | Velocidad máxima permitida en modo manual |
+
+### Recomendaciones de uso
+
+- Utilizar velocidades entre **5 % y 20 %** durante la enseñanza de trayectorias.
+- Verificar que el área de trabajo esté libre de obstáculos antes de aumentar la velocidad.
+- Evitar operar a velocidades elevadas cuando se trabaja cerca de los límites del espacio de trabajo.
+- Mantener siempre disponible el botón de parada de emergencia durante las operaciones manuales.
+
+### Resumen
+
+El EPSON T3-401S permite ajustar la velocidad de los movimientos manuales mediante el parámetro **Speed**, configurado desde la interfaz de EPSON RC+. El operador puede seleccionar distintos niveles según la tarea a realizar y verificar el valor activo observando el indicador de velocidad mostrado en la ventana de control del robot.
