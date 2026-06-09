@@ -479,3 +479,31 @@ RobotStudio es el software oficial de ABB para programación, simulación y opti
 - **RobotStudio** ofrece el entorno de simulación más realista para robots ABB gracias a su Virtual Controller, convirtiéndose en la herramienta preferida para aplicaciones industriales avanzadas y desarrollo de gemelos digitales.
 
 En términos generales, para laboratorios universitarios y simulación de múltiples marcas, **RoboDK** suele ser la alternativa más versátil; para aplicaciones reales con robots Epson, **EPSON RC+ 7.0** es la solución más adecuada; y para proyectos industriales basados en ABB, **RobotStudio** proporciona el mayor nivel de precisión y fidelidad.
+```mermaid
+flowchart TD
+
+A[Inicio] --> B[Inicializar robot EPSON T3-401S]
+B --> C[Ir a posición Home]
+C --> D[Cargar matriz de posiciones de la cubeta 6x5]
+D --> E[Ubicar huevos en posiciones iniciales]
+
+E --> F{¿Quedan posiciones por visitar?}
+
+F -- Sí --> G[Seleccionar Huevo 1]
+G --> H[Calcular siguiente posición válida<br/>según movimiento de caballo]
+H --> I[Tomar huevo con gripper]
+I --> J[Mover a posición destino]
+J --> K[Liberar huevo]
+
+K --> L[Seleccionar Huevo 2]
+L --> M[Calcular siguiente posición válida<br/>según movimiento de caballo]
+M --> N[Tomar huevo con gripper]
+N --> O[Mover a posición destino]
+O --> P[Liberar huevo]
+
+P --> Q[Actualizar posiciones ocupadas]
+Q --> F
+
+F -- No --> R[Regresar a Home]
+R --> S[Fin]
+```
