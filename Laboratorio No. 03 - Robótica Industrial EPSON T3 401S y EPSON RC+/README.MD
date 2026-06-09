@@ -24,3 +24,25 @@
 - El **EPSON T3-401S** es un robot SCARA optimizado para operaciones de ensamblaje y pick-and-place de alta velocidad, aunque posee menor carga útil y menos grados de libertad.
 - Para aplicaciones industriales complejas que requieren orientación completa de herramientas, los robots articulados de 6 ejes (MH6 e IRB 140) son más versátiles.
 - Para tareas repetitivas de ensamblaje ligero y manipulación rápida, el EPSON T3-401S presenta una solución más eficiente y económica.
+## Configuración Home del EPSON T3-401S
+
+La configuración **Home** del robot EPSON T3-401S corresponde a la posición de referencia utilizada para la inicialización, calibración y enseñanza de trayectorias. En esta posición todas las articulaciones se encuentran en una ubicación conocida, permitiendo establecer correctamente el sistema de coordenadas del robot.
+
+### Posición de las articulaciones en Home
+
+| Articulación | Tipo | Posición Home |
+|-------------|------|---------------|
+| J1 | Rotacional (Base) | 0° |
+| J2 | Rotacional (Brazo) | 0° |
+| J3 | Prismática (Eje Z) | Posición superior de referencia (Z = 0 mm) |
+| J4 | Rotacional (Herramienta) | 0° |
+
+### Descripción
+
+- **J1 (Articulación 1):** el primer brazo se orienta hacia la dirección de referencia del robot.
+- **J2 (Articulación 2):** el segundo brazo se encuentra alineado con el primero, formando la configuración base del manipulador.
+- **J3 (Articulación 3):** el eje vertical se encuentra en su posición superior de referencia.
+- **J4 (Articulación 4):** la herramienta o efector final mantiene una orientación neutra sin rotación adicional.
+
+El EPSON T3-401S es un robot tipo SCARA de **4 grados de libertad**, compuesto por dos articulaciones rotacionales para el movimiento en el plano XY, una articulación prismática para el movimiento vertical y una articulación rotacional para orientar el efector final.
+
