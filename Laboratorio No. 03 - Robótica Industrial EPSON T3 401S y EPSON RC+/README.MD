@@ -45,4 +45,79 @@ La configuración **Home** del robot EPSON T3-401S corresponde a la posición de
 - **J4 (Articulación 4):** la herramienta o efector final mantiene una orientación neutra sin rotación adicional.
 
 El EPSON T3-401S es un robot tipo SCARA de **4 grados de libertad**, compuesto por dos articulaciones rotacionales para el movimiento en el plano XY, una articulación prismática para el movimiento vertical y una articulación rotacional para orientar el efector final.
+## Procedimiento para realizar movimientos manuales en el EPSON T3-401S
+
+Los movimientos manuales del robot EPSON T3-401S se realizan mediante el software EPSON RC+ o utilizando el Teach Pendant (TP). El robot permite operar en diferentes modos de movimiento, principalmente **Joint (Articulaciones)** y **Cartesian (Cartesiano)**.
+
+### 1. Habilitación del robot
+
+1. Encender el robot y el sistema de control.
+2. Abrir el software EPSON RC+.
+3. Verificar que no existan alarmas activas.
+4. Liberar la parada de emergencia (E-STOP) si está activada.
+5. Colocar el sistema en modo **TEACH**.
+
+### 2. Movimiento en modo Joint (Articulaciones)
+
+En este modo cada articulación se mueve de forma independiente.
+
+1. Seleccionar **Jog & Teach**.
+2. Elegir el modo **Joint**.
+3. Seleccionar la articulación deseada:
+   - **J1:** rotación de la base.
+   - **J2:** rotación del segundo brazo.
+   - **J3:** movimiento vertical (eje Z).
+   - **J4:** rotación de la herramienta.
+4. Utilizar los botones **+** y **−** para desplazar la articulación seleccionada.
+5. Observar el movimiento y detenerlo cuando alcance la posición requerida.
+
+### 3. Movimiento en modo Cartesiano
+
+En este modo el robot se mueve respecto al sistema de coordenadas cartesianas.
+
+1. Seleccionar **Jog & Teach**.
+2. Cambiar a modo **Cartesian**.
+3. Seleccionar el eje que se desea mover:
+   - **X:** desplazamiento horizontal.
+   - **Y:** desplazamiento horizontal perpendicular al eje X.
+   - **Z:** desplazamiento vertical.
+4. Utilizar los controles **+** y **−** para mover el robot sobre cada eje.
+5. Verificar la posición alcanzada en la ventana de coordenadas.
+
+### 4. Traslaciones en los ejes X, Y y Z
+
+#### Movimiento en X
+- **X+**: desplaza el efector final hacia adelante.
+- **X−**: desplaza el efector final hacia atrás.
+
+#### Movimiento en Y
+- **Y+**: desplaza el efector final hacia la izquierda.
+- **Y−**: desplaza el efector final hacia la derecha.
+
+#### Movimiento en Z
+- **Z+**: eleva el efector final.
+- **Z−**: desciende el efector final.
+
+### 5. Rotación de la herramienta
+
+La orientación de la herramienta se controla mediante la articulación J4.
+
+- **R+**: rotación positiva de la herramienta.
+- **R−**: rotación negativa de la herramienta.
+
+### 6. Recomendaciones de seguridad
+
+- Verificar que el área de trabajo esté libre de obstáculos.
+- Operar inicialmente a baja velocidad.
+- Mantener accesible el botón de parada de emergencia.
+- No ingresar al espacio de trabajo mientras el robot esté en movimiento.
+- Confirmar visualmente cada desplazamiento antes de ejecutar movimientos de mayor amplitud.
+
+### Resumen de modos de operación
+
+| Modo | Descripción |
+|--------|------------|
+| Joint | Permite mover individualmente cada articulación (J1, J2, J3 y J4). |
+| Cartesian | Permite mover el efector final respecto a los ejes X, Y y Z. |
+| Tool Rotation | Permite cambiar la orientación del efector final mediante J4. |
 
