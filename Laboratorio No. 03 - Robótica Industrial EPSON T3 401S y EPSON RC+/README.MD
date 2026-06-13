@@ -249,3 +249,5 @@ Q --> F
 F -- No --> R[Regresar a Home]
 R --> S[Fin]
 ```
+## Video de simulacion 
+https://youtu.be/jgJGLUfFj_I
