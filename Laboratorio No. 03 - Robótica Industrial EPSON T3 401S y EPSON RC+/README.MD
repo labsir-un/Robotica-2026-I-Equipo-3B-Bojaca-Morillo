@@ -1,3 +1,13 @@
+<p>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2400&pause=600&color=7F5AF0&center=true&vCenter=true&width=600&lines=Gabriel+Eduardo+Bojaca+Munar">
+</p>
+<p>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2400&pause=600&color=7F5AF0&center=true&vCenter=true&width=600&lines=Maria+Fernanda+Morillo+Tovar">
+</p>
+
+
+
+
 # Cuadro Comparativo de Robots Industriales
 
 | Característica | Motoman MH6 | ABB IRB 140 | EPSON T3-401S |
