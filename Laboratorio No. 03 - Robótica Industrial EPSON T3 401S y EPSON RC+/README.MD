@@ -251,3 +251,6 @@ R --> S[Fin]
 ```
 ## Video de simulacion 
 https://youtu.be/jgJGLUfFj_I
+
+## Codigo Fuente del programa
+[Codigo Fuente](https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/396e20bd7b456138cccf55bbc38c0f032f7bec18/Laboratorio%20No.%2003%20-%20Rob%C3%B3tica%20Industrial%20EPSON%20T3%20401S%20y%20EPSON%20RC%2B/Junior_03/Main.prg)
