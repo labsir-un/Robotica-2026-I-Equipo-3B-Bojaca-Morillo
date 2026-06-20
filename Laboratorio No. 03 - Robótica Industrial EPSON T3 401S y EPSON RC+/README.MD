@@ -47,6 +47,15 @@ La configuración **Home** del robot EPSON T3-401S corresponde a la posición de
 | J3 | Prismática (Eje Z) | Posición superior de referencia (Z = 0 mm) |
 | J4 | Rotacional (Herramienta) | 0° |
 
+
+<p align="center">
+  <img src="/images/homeEpson.png" width="250">
+</p>
+
+<p align="center">
+  <img src="/images/homeEpson2.png" width="250">
+</p>
+
 ### Descripción
 
 - **J1 (Articulación 1):** el primer brazo se orienta hacia la dirección de referencia del robot.
@@ -63,9 +72,16 @@ Los movimientos manuales del robot EPSON T3-401S se realizan mediante el softwar
 
 1. Encender el robot y el sistema de control.
 2. Abrir el software EPSON RC+.
-3. Verificar que no existan alarmas activas.
-4. Liberar la parada de emergencia (E-STOP) si está activada.
-5. Colocar el sistema en modo **TEACH**.
+3. Abrir el **"Administrador de Robot (F6)"**.
+4. Liberar la parada de emergencia (E-STOP) si está activada con el botón Reestablecer.
+5. Encender los motores con el boton **"MOTOR ON"**.
+6. Seleccionar la potencia en el apartado **"Energia"**, selecciónando **POWER LOW** O **POWER ON**
+
+
+<p align="center">
+  <img src="./images/EpsonOn.png" width="450">
+</p>
+
 
 ### 2. Movimiento en modo Joint (Articulaciones)
 
@@ -81,6 +97,12 @@ En este modo cada articulación se mueve de forma independiente.
 4. Utilizar los botones **+** y **−** para desplazar la articulación seleccionada.
 5. Observar el movimiento y detenerlo cuando alcance la posición requerida.
 
+<p align="center">
+  <img src="./images/MoveJoint.png" width="450">
+</p>
+
+
+
 ### 3. Movimiento en modo Cartesiano
 
 En este modo el robot se mueve respecto al sistema de coordenadas cartesianas.
@@ -93,6 +115,11 @@ En este modo el robot se mueve respecto al sistema de coordenadas cartesianas.
    - **Z:** desplazamiento vertical.
 4. Utilizar los controles **+** y **−** para mover el robot sobre cada eje.
 5. Verificar la posición alcanzada en la ventana de coordenadas.
+
+<p align="center">
+  <img src="./images/Move.png" width="450">
+</p>
+
 
 ### 4. Traslaciones en los ejes X, Y y Z
 
@@ -157,14 +184,16 @@ A velocidades bajas el robot realiza movimientos lentos y precisos, mientras que
 
 ### Cambio de nivel de velocidad
 
-Para modificar la velocidad de movimiento manual:
+En la pestaña Mover y enseñar es posible configurar el nivel de velocidad del robot, mientras que en Panel de control se ajusta el nivel de potencia.
 
-1. Abrir el software **EPSON RC+**.
-2. Colocar el robot en modo **TEACH**.
-3. Acceder a la ventana **Jog & Teach**.
-4. Localizar el control **Speed**.
-5. Ajustar el porcentaje deseado mediante el control deslizante o introduciendo un valor numérico.
-6. Confirmar el nuevo valor antes de realizar movimientos manuales.
+**Velocidad: Alta vs. Baja**
+- Velocidad baja: el robot se desplaza a menor velocidad debido a una limitación en el parámetro Speed.
+- Velocidad alta: permite utilizar valores más elevados del parámetro Speed, lo que incrementa la rapidez de los movimientos.
+
+<p align="center">
+  <img src="./images/Velocidad.png" width="450">
+</p>
+
 
 ### Identificación del nivel de velocidad actual
 
@@ -249,6 +278,18 @@ Q --> F
 F -- No --> R[Regresar a Home]
 R --> S[Fin]
 ```
+
+## Montaje en el simulador
+
+
+<p align="center">
+  <img src="./images/Montaje.png" width="450">
+</p>
+
+<p align="center">
+  <img src="./images/Herramienta.png" width="450">
+</p>
+
 ## Video de simulacion 
 https://youtu.be/jgJGLUfFj_I
 
