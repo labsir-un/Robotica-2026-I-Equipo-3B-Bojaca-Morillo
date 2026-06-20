@@ -49,11 +49,11 @@ La configuración **Home** del robot EPSON T3-401S corresponde a la posición de
 
 
 <p align="center">
-  <img src="/images/homeEpson.png" width="250">
+  <img src="./images/homeEpson.png" width="250">
 </p>
 
 <p align="center">
-  <img src="/images/homeEpson2.png" width="250">
+  <img src="./images/homeEpson2.png" width="250">
 </p>
 
 ### Descripción
