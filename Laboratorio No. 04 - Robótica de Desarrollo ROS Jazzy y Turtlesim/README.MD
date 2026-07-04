@@ -156,3 +156,4 @@ Estas variables del nodo determinan qué comportamiento debe priorizar el robot 
 | **↓ (Flecha Abajo)** | **Mover Atrás:** Control manual para desplazar la tortuga hacia atrás. |
 | **← (Flecha Izquierda)** | **Girar Izquierda:** Rotación manual de la tortuga hacia la izquierda. |
 | **→ (Flecha Derecha)** | **Girar Derecha:** Rotación manual de la tortuga hacia la derecha. |
+### Videos 
