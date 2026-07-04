@@ -5,7 +5,9 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2400&pause=600&color=7F5AF0&center=true&vCenter=true&width=600&lines=Maria+Fernanda+Morillo+Tovar">
 </p>
 
+## Descripción
 
+En este laboratorio se exploró el entorno de desarrollo **ROS 2 Jazzy** mediante el simulador **Turtlesim**, con el objetivo de comprender los conceptos fundamentales de la programación de sistemas robóticos. Se realizaron ejercicios enfocados en la creación y ejecución de nodos, la comunicación mediante tópicos, servicios y acciones, así como el control del movimiento de la tortuga desde la terminal y mediante programas propios. Además, se reforzó el uso de paquetes, espacios de trabajo (*workspaces*) y herramientas básicas de ROS 2, permitiendo adquirir una base sólida para el desarrollo de aplicaciones robóticas más complejas.
 
 
 ## Diagrama general
