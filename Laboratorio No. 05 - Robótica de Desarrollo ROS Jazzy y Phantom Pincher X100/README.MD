@@ -46,3 +46,6 @@ flowchart TD
     Q -->|No| R[Regresar a posición segura]
     R --> S([Fin])
 ```
+## Plano de planta 
+
+
