@@ -49,5 +49,7 @@ flowchart TD
 ## Plano de planta 
 
 ![Captura de pantalla](Captura%20de%20pantalla%202026-07-17%20165541.png)
- ##Cinematica directa 
+
+## Cinematica directa 
+
 ![Captura de pantalla 2](Captura%20de%20pantalla%202026-07-17%20170242.png)
