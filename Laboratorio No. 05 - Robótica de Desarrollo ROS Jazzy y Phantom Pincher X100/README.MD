@@ -56,3 +56,11 @@ flowchart TD
 ## Cinematica directa 
 
 ![Captura de pantalla 2](Captura%20de%20pantalla%202026-07-17%20170242.png)
+
+## Conclusiones 
+
+Conclusión 1 
+La implementación de la cinemática directa e inversa permitió comprender cómo las coordenadas cartesianas y los ángulos articulares se relacionan para controlar el movimiento del robot. Además, el uso de ROS 2 facilitó la ejecución y validación de trayectorias de forma organizada y segura.
+
+Conclusión 2 
+El desarrollo de actividades como la interpolación de trayectorias, la enseñanza de poses y el trazado de figuras evidenció la importancia de planificar correctamente los movimientos del manipulador. Esto permitió obtener desplazamientos más suaves y precisos, mejorando el desempeño del robot durante las diferentes tareas.
