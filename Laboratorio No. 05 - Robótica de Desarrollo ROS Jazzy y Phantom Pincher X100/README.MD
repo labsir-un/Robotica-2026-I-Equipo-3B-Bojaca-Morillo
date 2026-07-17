@@ -48,4 +48,4 @@ flowchart TD
 ```
 ## Plano de planta 
 
-https://github.com/labsir-un/Robotica-2026-I-Equipo-3B-Bojaca-Morillo/blob/main/Laboratorio%20No.%2005%20-%20Rob%C3%B3tica%20de%20Desarrollo%20ROS%20Jazzy%20y%20Phantom%20Pincher%20X100/Captura%20de%20pantalla%202026-07-17%20165541.png
+![Captura de pantalla](Captura%20de%20pantalla%202026-07-17%20165541.png)
