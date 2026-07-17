@@ -12,39 +12,42 @@ Con base en los requerimientos del laboratorio, la solución debe integrar el co
 
 ```mermaid
 flowchart TD
-    A([Inicio]) --> B[Inicializar ROS 2 y conectar Phantom X Pincher X100]
-    B --> C[Ubicar robot en posición segura]
-    C --> D[Recibir comando del usuario]
+    A([Inicio]) --> B[Inicializar nodo ROS 2]
+    B --> C[Establecer comunicación con Phantom X100]
+    C --> D[Verificar estado del robot]
+    D --> E[Ubicar robot en posición segura]
 
-    D --> E{¿Tipo de operación?}
+    E --> F[Esperar instrucción del usuario]
 
-    E -->|Movimiento articular| F[Validar límites articulares]
-    E -->|Cinemática directa| G[Calcular posición cartesiana]
-    E -->|Cinemática inversa| H[Calcular configuración articular]
-    E -->|Trayectoria| I[Generar interpolación]
-    E -->|Repetición de poses| J[Cargar poses desde YAML]
-    E -->|Dibujar/Coreografía| K[Generar secuencia de puntos]
+    F --> G{Seleccionar operación}
 
-    F --> L[Enviar posiciones a los servomotores]
-    G --> L
-    H --> M{¿Solución válida?}
-    M -->|Sí| L
-    M -->|No| N[Mostrar error de punto no alcanzable]
-    N --> D
+    G -->|Movimiento articular| H[Ingresar posiciones articulares]
+    G -->|Cinemática inversa| I[Ingresar posición cartesiana]
+    G -->|Trayectoria/Coreografía| J[Cargar secuencia de movimientos]
 
-    I --> L
-    J --> L
-    K --> H
+    H --> K[Validar límites articulares]
+    I --> L[Calcular solución de cinemática inversa]
+    J --> M[Generar trayectoria]
 
-    L --> O[Monitorear estado del robot]
-    O --> P{¿Movimiento completado?}
+    L --> N{¿Solución válida?}
+    N -->|No| O[Notificar error]
+    O --> F
+    N -->|Sí| K
 
-    P -->|No| O
-    P -->|Sí| Q{¿Existen más acciones?}
+    K --> P[Enviar comandos a los servomotores]
+    M --> P
 
-    Q -->|Sí| D
-    Q -->|No| R[Regresar a posición segura]
-    R --> S([Fin])
+    P --> Q[Ejecutar movimiento]
+    Q --> R[Actualizar estado del robot]
+
+    R --> S{¿Acción finalizada?}
+    S -->|No| Q
+    S -->|Sí| T{¿Nueva operación?}
+
+    T -->|Sí| F
+    T -->|No| U[Regresar a posición inicial]
+    U --> V[Finalizar comunicación]
+    V --> W([Fin])
 ```
 ## Plano de planta 
 
