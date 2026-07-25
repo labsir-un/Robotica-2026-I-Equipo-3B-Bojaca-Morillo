@@ -16,7 +16,7 @@
     </td>
   </tr>
 </table>
-# Actividad 12 — Cinemática Inversa PhantomX Pincher (`ik_phantom`)
+## Proyecto— Cinemática Inversa PhantomX Pincher (`ik_phantom`)
 
 Esta actividad consiste en programar la cinemática inversa del **PhantomX Pincher X100**: dado un punto en el espacio (X, Y, Z) y un ángulo de muñeca deseado, el robot debe calcular por sí solo qué ángulos necesita cada articulación para llegar ahí, y moverse hasta esa posición sin chocar contra el piso ni salirse de sus límites mecánicos. El script `Actividad_12.py` es justamente eso: recibe el punto objetivo por consola, resuelve la geometría, filtra las soluciones inválidas y ejecuta el movimiento sobre el robot (real o simulado).
 
