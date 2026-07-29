@@ -171,6 +171,16 @@ Ctrl+C para salir. Presionar `q` en la ventana de video también cierra el progr
 
 ## Videos 
 
+## Videos de demostración
+
+[![Video 1](https://drive.google.com/thumbnail?id=1EqDscNefD4i1kRXzlKbOH6I8KSpX8Mq4)](https://drive.google.com/file/d/1EqDscNefD4i1kRXzlKbOH6I8KSpX8Mq4/view?usp=drive_link)
+
+[![Video 2](https://drive.google.com/thumbnail?id=13yGw11tSOQHHb_xmZWPx7cLA9ExJpDro)](https://drive.google.com/file/d/13yGw11tSOQHHb_xmZWPx7cLA9ExJpDro/view?usp=drive_link)
+
+[![Video 3](https://drive.google.com/thumbnail?id=1-KyUQCcPZHVYrZD1jbXKrO4pjFwlw1so)](https://drive.google.com/file/d/1-KyUQCcPZHVYrZD1jbXKrO4pjFwlw1so/view?usp=drive_link)
+
+[![Video 4](https://drive.google.com/thumbnail?id=156der9t2Vzlm9ZEJO3adPHJ6D7YPmH1Z)](https://drive.google.com/file/d/156der9t2Vzlm9ZEJO3adPHJ6D7YPmH1Z/view?usp=drive_link)
+
 ## Conclusiones
 
 - El desacople posición-orientación (usar `theta` para ubicar el "punto de muñeca" antes de resolver el triángulo `l1`-`l2`) simplifica bastante el problema y evita tener que resolver las 4 incógnitas al tiempo.
