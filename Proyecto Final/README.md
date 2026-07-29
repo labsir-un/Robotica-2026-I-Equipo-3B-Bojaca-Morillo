@@ -171,8 +171,6 @@ Ctrl+C para salir. Presionar `q` en la ventana de video también cierra el progr
 
 ## Videos 
 
-## Videos de demostración
-
 [![Video 1](https://drive.google.com/thumbnail?id=1EqDscNefD4i1kRXzlKbOH6I8KSpX8Mq4)](https://drive.google.com/file/d/1EqDscNefD4i1kRXzlKbOH6I8KSpX8Mq4/view?usp=drive_link)
 
 [![Video 2](https://drive.google.com/thumbnail?id=13yGw11tSOQHHb_xmZWPx7cLA9ExJpDro)](https://drive.google.com/file/d/13yGw11tSOQHHb_xmZWPx7cLA9ExJpDro/view?usp=drive_link)
