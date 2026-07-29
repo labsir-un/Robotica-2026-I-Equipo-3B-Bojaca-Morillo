@@ -168,6 +168,9 @@ Ctrl+C para salir. Presionar `q` en la ventana de video también cierra el progr
 - 0 o 2047 en la lectura cruda de profundidad significan "sin lectura válida".
 - El rojo en HSV cruza el límite 0/180, por eso usa dos rangos.
 - La lógica de movimiento del robot es un ejemplo simple (primera figura válida); se puede ajustar para elegir la más cercana, filtrar por color específico, o esperar confirmación del usuario.
+
+## Videos 
+
 ## Conclusiones
 
 - El desacople posición-orientación (usar `theta` para ubicar el "punto de muñeca" antes de resolver el triángulo `l1`-`l2`) simplifica bastante el problema y evita tener que resolver las 4 incógnitas al tiempo.
